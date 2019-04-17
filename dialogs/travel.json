@@ -1,0 +1,76 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "100 24"
+    },
+    {
+      "key": "33",
+      "category": "Active",
+      "text_title": "33. Booking policy",
+      "text_trans": "",
+      "level": {
+        "depth": 1,
+        "slots": 1,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "75": "Are you asking about our booking policy?"
+        },
+        "ANSWER_TEXT": {
+          "76": "If your travel plans change, find options to cancel your ticket or apply for a refund. Additionally, find details about&nbsp;24-Hour Risk-Free Cancellation&nbsp;if your booked your flight within the last 24 hours."
+        },
+        "RATINGS": {
+          "77": "AUTO"
+        },
+        "title": "Booking policy",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "10": 10
+        }
+      },
+      "loc": "100 277.76227824134145"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": -1,
+      "to": "33",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        100,
+        48,
+        100,
+        58,
+        100,
+        148,
+        100,
+        148,
+        100,
+        238,
+        100,
+        248
+      ]
+    }
+  ]
+}

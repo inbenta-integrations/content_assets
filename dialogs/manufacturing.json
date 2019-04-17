@@ -1,0 +1,180 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "300.5 24"
+    },
+    {
+      "key": 51,
+      "category": "Inactive",
+      "text_title": "51. New product warranty",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "50",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "100": "Our products are guaranteed against manufacturing defects <strong>one (1) year </strong>from the original date of purchase. Our sole obligation in the event of such defects during this period is to repair or replace the defective part or product with a comparable part or product at our sole discretion."
+        },
+        "title": "New product warranty",
+        "status": "inactive",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "13": 13
+        }
+      },
+      "loc": "100.5 588.3937683177745"
+    },
+    {
+      "key": 52,
+      "category": "Active",
+      "text_title": "52. Refurbished products warranty",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "50",
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "101": "Our certified factory refurbished products are guaranteed against manufacturing defects <strong>6 months</strong> from the original date of purchase. Our sole obligation in the event of such defects during this period is to repair or replace the defective part or product with a comparable part or product at our sole discretion.&nbsp;"
+        },
+        "title": "Refurbished products warranty",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "13": 13
+        }
+      },
+      "loc": "501 595.0920105052745"
+    },
+    {
+      "key": "50",
+      "category": "Inactive",
+      "text_title": "50. How long is the warranty?",
+      "text_trans": "Did you buy a new product or a refurbished one?",
+      "level": {
+        "depth": 1,
+        "slots": 2,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "99": "<p>\n\tThe length of our&nbsp;manufacturer's warranty depends on the product. Warranties can only be validated with receipt of original purchase.\n</p>\n\n<p>\n\t&nbsp;\n</p>"
+        },
+        "title": "How long is the warranty?",
+        "status": "inactive",
+        "transition_question": "Did you buy a new product or a refurbished one?",
+        "transition_type": "options",
+        "categories": {
+          "13": 13
+        }
+      },
+      "loc": "300.5 303.06574503821645"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "50",
+      "to": 51,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "New",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300.5,
+        358.13149007643295,
+        300.5,
+        368.13149007643295,
+        300.5,
+        458.131490076433,
+        100.5,
+        458.131490076433,
+        100.5,
+        548.131490076433,
+        100.5,
+        558.131490076433
+      ]
+    },
+    {
+      "from": "50",
+      "to": 52,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Refurbished",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300.5,
+        358.13149007643295,
+        300.5,
+        368.13149007643295,
+        300.5,
+        458.131490076433,
+        501,
+        458.131490076433,
+        501,
+        548.131490076433,
+        501,
+        558.131490076433
+      ]
+    },
+    {
+      "from": -1,
+      "to": "50",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300.5,
+        48,
+        300.5,
+        58,
+        300.5,
+        148,
+        300.5,
+        148,
+        300.5,
+        238,
+        300.5,
+        248
+      ]
+    }
+  ]
+}

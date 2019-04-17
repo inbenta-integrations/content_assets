@@ -1,0 +1,363 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "900 24"
+    },
+    {
+      "key": 132,
+      "category": "Active",
+      "text_title": "132. Same-day shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "131",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "214": "Cost of same-day shipping?"
+        },
+        "ANSWER_TEXT": {
+          "215": "<p>Same-day shipping is estimated to cost $64.99-$119.99.&nbsp;</p>\n"
+        },
+        "title": "Same-day shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "9": 9
+        }
+      },
+      "loc": "100 569.2885437083995"
+    },
+    {
+      "key": 134,
+      "category": "Active",
+      "text_title": "134. Overnight shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "131",
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "218": "Cost of overnight shipping?"
+        },
+        "ANSWER_TEXT": {
+          "219": "<p>Overnight&nbsp;shipping is estimated to cost $39.99-$99.99.&nbsp;</p>\n"
+        },
+        "title": "Overnight shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "9": 9
+        }
+      },
+      "loc": "500 569.2885437083995"
+    },
+    {
+      "key": 133,
+      "category": "Active",
+      "text_title": "133. Two-day shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "131",
+        "offset": 2,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "216": "Cost of two-day shipping?"
+        },
+        "ANSWER_TEXT": {
+          "217": "<p>Two-day shipping is estimated to cost $19.99-$44.99.&nbsp;</p>\n"
+        },
+        "title": "Two-day shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "9": 9
+        }
+      },
+      "loc": "900 569.2885437083995"
+    },
+    {
+      "key": 135,
+      "category": "Active",
+      "text_title": "135. Three-day shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "131",
+        "offset": 3,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "220": "Cost of three-day shipping?"
+        },
+        "ANSWER_TEXT": {
+          "221": "<p>Three-day shipping is estimated to cost $14.99-$34.99.&nbsp;</p>\n"
+        },
+        "title": "Three-day shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "9": 9
+        }
+      },
+      "loc": "1300 569.2885437083995"
+    },
+    {
+      "key": 136,
+      "category": "Active",
+      "text_title": "136. Ground shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "131",
+        "offset": 4,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "222": "Cost of ground shipping?"
+        },
+        "ANSWER_TEXT": {
+          "223": "<p>Ground shipping costs a flat rate of $4.99.</p>\n"
+        },
+        "title": "Ground shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "9": 9
+        }
+      },
+      "loc": "1700 569.2885437083995"
+    },
+    {
+      "key": "131",
+      "category": "Active",
+      "text_title": "131. How much will shipping cost?",
+      "text_trans": "Please select your shipping option:",
+      "level": {
+        "depth": 1,
+        "slots": 5,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "213": "<p>Cost of shipping</p>\n"
+        },
+        "SIDEBUBBLE_TEXT": {
+          "224": "<p>We can help estimate your shipping costs. For an exact rate, please view our fare calculator <a href=\"http://fedex.com/ratefinder/home?cc=US&amp;language=en…\">here</a>.</p>\n"
+        },
+        "title": "How much will shipping cost?",
+        "status": "active",
+        "transition_question": "Please select your shipping option:",
+        "transition_type": "options",
+        "categories": {
+          "9": 9
+        }
+      },
+      "loc": "900 293.76313273352895"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "131",
+      "to": 132,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Same-day",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        900,
+        339.52626546705795,
+        900,
+        349.52626546705795,
+        900,
+        439.526265467058,
+        100,
+        439.526265467058,
+        100,
+        529.526265467058,
+        100,
+        539.526265467058
+      ]
+    },
+    {
+      "from": "131",
+      "to": 134,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Overnight",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        900,
+        339.52626546705795,
+        900,
+        349.52626546705795,
+        900,
+        439.526265467058,
+        500,
+        439.526265467058,
+        500,
+        529.526265467058,
+        500,
+        539.526265467058
+      ]
+    },
+    {
+      "from": "131",
+      "to": 133,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Two-day",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        900,
+        339.52626546705795,
+        900,
+        349.52626546705795,
+        900,
+        439.526265467058,
+        900,
+        439.526265467058,
+        900,
+        529.526265467058,
+        900,
+        539.526265467058
+      ]
+    },
+    {
+      "from": "131",
+      "to": 135,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Three-day",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        900,
+        339.52626546705795,
+        900,
+        349.52626546705795,
+        900,
+        439.526265467058,
+        1300,
+        439.526265467058,
+        1300,
+        529.526265467058,
+        1300,
+        539.526265467058
+      ]
+    },
+    {
+      "from": "131",
+      "to": 136,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Ground",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        900,
+        339.52626546705795,
+        900,
+        349.52626546705795,
+        900,
+        439.526265467058,
+        1700,
+        439.526265467058,
+        1700,
+        529.526265467058,
+        1700,
+        539.526265467058
+      ]
+    },
+    {
+      "from": -1,
+      "to": "131",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        900,
+        48,
+        900,
+        58,
+        900,
+        148,
+        900,
+        148,
+        900,
+        238,
+        900,
+        248
+      ]
+    }
+  ]
+}

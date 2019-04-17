@@ -1,0 +1,247 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "500 24"
+    },
+    {
+      "key": 7,
+      "category": "Active",
+      "text_title": "7. Checking Account Fee",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "6",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "11": "<p>\n<style type=\"text/css\">p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #454545}\nli.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #454545}\nul.ul1 {list-style-type: disc}\n</style>\nNo monthly maintenance fee if the balance is&nbsp;$500 or more</p>\n"
+        },
+        "RATINGS": {
+          "12": "AUTO"
+        },
+        "title": "Checking Account Fee",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "3": 3
+        }
+      },
+      "loc": "100 554.8920593333995"
+    },
+    {
+      "key": 8,
+      "category": "Active",
+      "text_title": "8. Savings Account Fee",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "6",
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "13": "<p>No monthly maintenance fee if the balance is&nbsp;$1,000 or more</p>\n"
+        },
+        "RATINGS": {
+          "14": "AUTO"
+        },
+        "title": "Savings Account Fee",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "3": 3
+        }
+      },
+      "loc": "500 554.8920593333995"
+    },
+    {
+      "key": 9,
+      "category": "Active",
+      "text_title": "9. Investment Account Fee",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "6",
+        "offset": 2,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "15": "<p>No monthly maintenance fee if the balance is&nbsp;$5,000 or more</p>\n"
+        },
+        "RATINGS": {
+          "16": "AUTO"
+        },
+        "title": "Investment Account Fee",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "3": 3
+        }
+      },
+      "loc": "900 554.8920593333995"
+    },
+    {
+      "key": "6",
+      "category": "Active",
+      "text_title": "6. What are your fees?",
+      "text_trans": "Please choose the account type",
+      "level": {
+        "depth": 1,
+        "slots": 3,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "9": "Do you want to know fees associated with various types of accounts?"
+        },
+        "ANSWER_TEXT": {
+          "10": "<p>Sure! I can help you with that</p>\n"
+        },
+        "title": "What are your fees?",
+        "status": "active",
+        "transition_question": "Please choose the account type",
+        "transition_type": "options",
+        "categories": {
+          "3": 3
+        }
+      },
+      "loc": "500 286.56489054602895"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "6",
+      "to": 7,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Checking",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        500,
+        325.12978109205795,
+        500,
+        335.12978109205795,
+        500,
+        425.129781092058,
+        100,
+        425.129781092058,
+        100,
+        515.129781092058,
+        100,
+        525.129781092058
+      ]
+    },
+    {
+      "from": "6",
+      "to": 8,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Savings",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        500,
+        325.12978109205795,
+        500,
+        335.12978109205795,
+        500,
+        425.129781092058,
+        500,
+        425.129781092058,
+        500,
+        515.129781092058,
+        500,
+        525.129781092058
+      ]
+    },
+    {
+      "from": "6",
+      "to": 9,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Investment",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        500,
+        325.12978109205795,
+        500,
+        335.12978109205795,
+        500,
+        425.129781092058,
+        900,
+        425.129781092058,
+        900,
+        515.129781092058,
+        900,
+        525.129781092058
+      ]
+    },
+    {
+      "from": -1,
+      "to": "6",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        500,
+        48,
+        500,
+        58,
+        500,
+        148,
+        500,
+        148,
+        500,
+        238,
+        500,
+        248
+      ]
+    }
+  ]
+}

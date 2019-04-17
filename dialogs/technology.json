@@ -1,0 +1,180 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "300 24"
+    },
+    {
+      "key": 40,
+      "category": "Active",
+      "text_title": "40. iPhone 7 and newer models",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "38",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "88": "Yes, our app runs on iPhone 7 and newer models."
+        },
+        "title": "iPhone 7 and newer models",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "8": 8
+        }
+      },
+      "loc": "100 576.4867858958995"
+    },
+    {
+      "key": 39,
+      "category": "Active",
+      "text_title": "39. iPhone 6 and older models",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "38",
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "87": "Unfortunately, our app is no longer available for iPhone 6 and previous models"
+        },
+        "title": "iPhone 6 and older models",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "8": 8
+        }
+      },
+      "loc": "500 576.4867858958995"
+    },
+    {
+      "key": "38",
+      "category": "Active",
+      "text_title": "38. Do you have an iPhone app?",
+      "text_trans": "What model of iPhone do you have?",
+      "level": {
+        "depth": 1,
+        "slots": 2,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "86": "Yes, our app is available on iPhone however not all iPhone models are currently supported."
+        },
+        "title": "Do you have an iPhone app?",
+        "status": "active",
+        "transition_question": "What model of iPhone do you have?",
+        "transition_type": "options",
+        "categories": {
+          "8": 8
+        }
+      },
+      "loc": "300 293.76313273352895"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "38",
+      "to": 40,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "iPhone 7 and newer models",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        339.52626546705795,
+        300,
+        349.52626546705795,
+        300,
+        439.526265467058,
+        100,
+        439.526265467058,
+        100,
+        529.526265467058,
+        100,
+        539.526265467058
+      ]
+    },
+    {
+      "from": "38",
+      "to": 39,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "iPhone 6 and older models\n\n",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        339.52626546705795,
+        300,
+        349.52626546705795,
+        300,
+        439.526265467058,
+        500,
+        439.526265467058,
+        500,
+        529.526265467058,
+        500,
+        539.526265467058
+      ]
+    },
+    {
+      "from": -1,
+      "to": "38",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        48,
+        300,
+        58,
+        300,
+        148,
+        300,
+        148,
+        300,
+        238,
+        300,
+        248
+      ]
+    }
+  ]
+}

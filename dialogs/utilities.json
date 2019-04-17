@@ -1,0 +1,186 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "300 24"
+    },
+    {
+      "key": 25,
+      "category": "Active",
+      "text_title": "25. Residential ",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "24",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "61": "How to check usage for your home? "
+        },
+        "ANSWER_TEXT": {
+          "62": "<ul class=\"pge-list\" style=\"box-sizing: border-box; margin: 0px; font-size: 16px; line-height: 1.75; padding-right: 0px; padding-left: 18px; font-family: FFDINWeb, Arial;\">\n\t<li style=\"box-sizing: border-box; list-style: disc; padding-left: 0px; margin-bottom: 18px;\">You can check your usage through our Website, mobile app, as well as SMS reminders. Please sign in to view and manage energy usage.&nbsp;</li>\n</ul>\n"
+        },
+        "title": "Residential ",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "7": 7
+        }
+      },
+      "loc": "100 586.8937683177745"
+    },
+    {
+      "key": 26,
+      "category": "Active",
+      "text_title": "26. View business energy usage",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "24",
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "64": "<p>\n\tYou can view energy usage for your business through our online portal, mobile app, email, or mail.&nbsp;\n</p>"
+        },
+        "title": "View business energy usage",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "7": 7
+        }
+      },
+      "loc": "500 594.0920105052745"
+    },
+    {
+      "key": "24",
+      "category": "Active",
+      "text_title": "24. How do I monitor my usage?",
+      "text_trans": "Are you asking about your home or business? ",
+      "level": {
+        "depth": 1,
+        "slots": 2,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "59": "Are you interested in learning about how you can monitor your usage?"
+        },
+        "ANSWER_TEXT": {
+          "60": "Sure! Please choose your account type.&nbsp;"
+        },
+        "title": "How do I monitor my usage?",
+        "status": "active",
+        "transition_question": "Are you asking about your home or business? ",
+        "transition_type": "options",
+        "categories": {
+          "7": 7
+        }
+      },
+      "loc": "300 302.56574503821645"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "24",
+      "to": 25,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Home ",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        357.13149007643295,
+        300,
+        367.13149007643295,
+        300,
+        457.131490076433,
+        100,
+        457.131490076433,
+        100,
+        547.131490076433,
+        100,
+        557.131490076433
+      ]
+    },
+    {
+      "from": "24",
+      "to": 26,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Business",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        357.13149007643295,
+        300,
+        367.13149007643295,
+        300,
+        457.131490076433,
+        500,
+        457.131490076433,
+        500,
+        547.131490076433,
+        500,
+        557.131490076433
+      ]
+    },
+    {
+      "from": -1,
+      "to": "24",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        48,
+        300,
+        58,
+        300,
+        148,
+        300,
+        148,
+        300,
+        238,
+        300,
+        248
+      ]
+    }
+  ]
+}

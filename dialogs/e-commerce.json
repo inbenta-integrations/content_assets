@@ -1,0 +1,186 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "300 24"
+    },
+    {
+      "key": 36,
+      "category": "Active",
+      "text_title": "36. Domestic Shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "44",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "CHECK_QUESTION": {
+          "82": "I can help you with that."
+        },
+        "ANSWER_TEXT": {
+          "83": "<p>\n\tShipping is free on all orders. We use&nbsp;the best carriers in the business to make sure your order gets to you on time. From the Secure Checkout page you'll see your item description, price and estimated delivery date.\n</p>\n\n<p>\n\tFree two-day shipping is available on most in-stock items. You can see in your bag if your item qualifies. Free two-day shipping is not available on customized or&nbsp;engraved products, and for certain order types, including orders paid for with financing or by bank transfer. Cut-offs apply. See checkout for estimated delivery dates.\n</p>"
+        },
+        "title": "Domestic Shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "6": 6
+        }
+      },
+      "loc": "100 554.8920593333995"
+    },
+    {
+      "key": 43,
+      "category": "Active",
+      "text_title": "43. International Shipping",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "44",
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "91": "International&nbsp;Orders may require 3-5 business days or more of additional processing time prior to shipment as we may need to consolidate items to one location for shipment."
+        },
+        "title": "International Shipping",
+        "status": "active",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "6": 6
+        }
+      },
+      "loc": "500 554.8920593333995"
+    },
+    {
+      "key": "44",
+      "category": "Active",
+      "text_title": "44. Shipping Policy",
+      "text_trans": "Which policy would you like to review?",
+      "level": {
+        "depth": 1,
+        "slots": 2,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "92": "<p>We have domestic and international shipping policies.</p>\n"
+        },
+        "RATINGS": {
+          "93": "AUTO"
+        },
+        "title": "Shipping Policy",
+        "status": "active",
+        "transition_question": "Which policy would you like to review?",
+        "transition_type": "options",
+        "categories": {
+          "6": 6
+        }
+      },
+      "loc": "300 286.56489054602895"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "44",
+      "to": 36,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Domestic",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        325.12978109205795,
+        300,
+        335.12978109205795,
+        300,
+        425.129781092058,
+        100,
+        425.129781092058,
+        100,
+        515.129781092058,
+        100,
+        525.129781092058
+      ]
+    },
+    {
+      "from": "44",
+      "to": 43,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "International",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        325.12978109205795,
+        300,
+        335.12978109205795,
+        300,
+        425.129781092058,
+        500,
+        425.129781092058,
+        500,
+        515.129781092058,
+        500,
+        525.129781092058
+      ]
+    },
+    {
+      "from": -1,
+      "to": "44",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        300,
+        48,
+        300,
+        58,
+        300,
+        148,
+        300,
+        148,
+        300,
+        238,
+        300,
+        248
+      ]
+    }
+  ]
+}
