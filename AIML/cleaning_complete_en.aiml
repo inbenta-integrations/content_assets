@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
+<category><template><srai><star/></srai></template><pattern>YOU ARE TELLING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ARE YOU CONVINCED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ARE YOU TELLING ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR A COMPUTER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU BELIEVE IN GOD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>JESUS SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>O *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DEFINATELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW * TRICKS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM BEGINING TO THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* GT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BOT NAME NAME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU REALISE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SURPRISINGLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN SHORT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BLIMEY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WAS NOT A CRITISISM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>POP QUIZ *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ASSUME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LET ME ASK YOU A QUESTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LET ME ASK YOU ONE QUESTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HAPPILY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU ARE AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DOES HE REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DOES SHE REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SHE REALIZES THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SHE IS AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY POINTING IT OUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY BET IS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WOULD HAVE BEEN NICE BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS FAR OUT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS FAR OUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS NECESSARY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS NECESSARY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS FORTUNATE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS FORTUNATE FOR YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS FORTUNATE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS GROOVY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS GROOVY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS LUCKY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS ODD THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS OUT OF SIGHT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS OUT OF SIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS BITCHIN THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS BITCHIN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ONE OF THESE DAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SAY THAT BECAUSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL BET *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE ARE AWARE THAT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEY REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEY ARE AWARE THAT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO THEY REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHETHER WE ADMIT IT OR NOT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EXCEPT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ARE YOU AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HE REALIZES THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HE IS AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GOSH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NECESSARILY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SAYING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>APPPARENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GUT ABER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>UNDER THESE CIRCUMSTANCES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BEARING IN MIND THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BEARING IN MIND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AHA *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY SIGN IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY HUSBAND THINKS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALAS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHAT TO DO WHAT TO DO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>APPARENT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NICE TO SEE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WOOPS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EUH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEXT CHRISTMAS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEXT QUESTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEXT TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GUYS GET OVER YOURSELVES AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LET US SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LET US MOVE ON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LET ME WRITE ABOUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LET ME REPHRASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ABSOLUTELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PERSONALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEARLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU PROMISE ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU SEE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU SAID THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU SAID BEFORE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU TOO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MEAN TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MEAN TO TELL ME THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MEAN LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU TOLD ME THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU TOLD ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU WOULD HAVE HEARD ABOUT IT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU SUCK I *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU CAN TELL THERE IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>UNLESS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HAVE YOU NOTICED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HAVE YOU BEEN TOLD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HYPOTHETICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SANTA _</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OBVIOIUSLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BABY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AGAIN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TRULY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FINE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MMMM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DOES THAT MEAN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HURRAH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DEFINITELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>RECENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>STRANGE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALWAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOTALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WELL I GUESS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WELL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANOTHER QUESTION FOR YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANOTHER THING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WOAH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HECK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALMOST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TRY AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EXCUSE ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FIRST OFF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FIRST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SINCE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HUH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DID I TELL YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALTHOUGH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EARLIER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OOH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GEE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOMEWHERE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HERE IN ENGLAND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEN I CALLED MY DAD AND TOLD HIM THE SAME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ERRR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SO FAR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BOLLOCKS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>JUST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MANY TIMES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FINALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AND THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AND SO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OOO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>VERY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WOULD YOU PLEASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WOULD YOU AGREE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WOULD YOU BELIEVE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EXACTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GOES TO SHOW YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HONESTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FEELINGS LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BULLSHIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT WAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS A SHAME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS OK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS NOT POSSIBLE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS CORRECT BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS IT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS GREAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS OKAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS GOOD NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS GOOD THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS WHY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT IS TRUE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT MEANS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOMEHOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YET *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BECAUCSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SECONDLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SHE SAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SHE SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHATEVER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVERY NIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PERHAPS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY BOYFRIEND SAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY DEAR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY GOSH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY FRIEND SAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY QUESTION IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY GOD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY FRIENDS SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY SECRET IS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY MY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY E MAIL IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY MOM SAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MY RANT IS THIS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WAS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WAS CLEAR THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WAS NOT A CRITICISM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS NICE TO MEET YOU TOO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS A PERSON BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS A MATTER OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS IMPORTANT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS OK BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS OKAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT IS TRUE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT SEEMS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT SEEMS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT SEEMS AS IF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT SEEMS LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT GOES WITHOUT SAYING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT APPEARS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FRANKLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FRANKLY NOT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OBVIOUSLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CLEARLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOGETHER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EMOTIONALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GREAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MAKE SURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EITHER WAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EITHER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHEN I ASK YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHEN I COME BACK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHEN YOU ARE CONFUSED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>COOL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN PRINCIPLE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN ANY CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN ENGLAND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MANY CASES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN SOME WAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MOST WAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MOST CASES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN FACT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN CLOSING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THIS WAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THIS CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THE END *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THE FUTURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THE BEGINNING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN OTHER WORDS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THEORY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN FRENCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THAT CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN 2050 *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN 2000 *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN ENGLISH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN GERMANY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MY OPINION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MY CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MY MIND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN MY SPARE TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN 50 WORDS OR LESS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN A WAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN FUTURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN CONCLUSION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN REGARDS TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN GENERAL TERMS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN FINLAND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN ADDITION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN AMERICA *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN ACTUALITY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AWWW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SEEMS LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AFTER THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF _ THAT IS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF THAT IS THE CASE THEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF SO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN SEE ME THEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN SEE ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN SEE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN THINK THEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN NOT ANSWER A QUESTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU CAN NOT ANSWER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU BECOME SMARTER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU BELIEVE ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU BELIEVE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AWW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BEACUSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOMETIMES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SMILE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SORT OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHAT WOULD YOU DO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHAT IF I SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHAT WE CALL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MOST LIKELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MOST IMPORTANTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MOST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>USUALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PHYSICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEITHER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ME TOO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OH WELL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>RATHER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ASK YOURSELF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SAY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I GUESSED THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I E *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ADMIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MEAN YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MEAN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WANT TO ASK YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WANT TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WANT TO TELL YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WANT TO KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WANT YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I TOLD YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I TOLD YOU EARLIER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I TOLD YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HOPE THIS IS NOT A STING OR SOMETHING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I INSIST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I NEED TO KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SHOULD BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SHOULD SAY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS WONDERING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS ASKING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS TOLD THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS TOLD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS TRYING TO SAY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS CURIOUS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS SAYING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS SAYING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS POINTING OUT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS GOING TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS TELLING YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I UNDERSTAND THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I KNOW THAT IS WHY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I KNOW THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I BELIEVE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MEANT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DO NOT BECAUSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DO NOT KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DO NOT SUPPOSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DO NOT LIKE TO BE RUDE BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I NOTICE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I THINK THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I REPEAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I NOTICED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE A FEELING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE A PROBLEM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE HEARD THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE TOLD YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE TO GO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DEDUCED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I REMEMBER THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DID NOT ASK ABOUT YOU I ASKED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DID NOT KNOW BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AGREE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AGREE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I LIED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I TAKE IT BACK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I TAKE IT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I CAN ASSUME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I CAN TELL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I CAN NOT BELIEVE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ASSURE YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SEE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I LIKE THE FACT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I LIKE WHEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I COMMAND YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD IMAGINE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD EXPECT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD ASK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD HAVE TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD HAVE SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD EVEN SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD LIKE TO KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD LIKE YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MUST ADMIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MUST SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ASK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MENTIONED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SUGGEST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ALWAYS THOUGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL TELL YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL TELL YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL COME BACK AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DISAGREE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I REMEMBERED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM TOLD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SAD BECAUSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM 20 YEARS OLD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM BEGINNING TO THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM CRAZY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SAYING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM GUESSING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM GOING TO LEAVE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM CURIOUS ABOUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM IN * HOW ABOUT YOU</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM CERTAIN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM ASSUMING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM WONDERING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM A PERSON AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM TELLING YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM OK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM FINE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM TRYING TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SHOCKED AT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM NOT SURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM ANGRY BECAUSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SURPRISED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM ASKING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM POSITIVE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I THOUGHT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I THOUGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ASSUME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HEARD THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HEARD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SWEAR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I GUESS SO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I GUESS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ASKED TO SEE HIM TO SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ASKED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PURELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SURELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEORETICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DAMN IT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DAMN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MEME SI *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALREADY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MAINLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PRECISELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALRIGHTY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GOOD IDEA *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>INCREDIBLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>STICK AROUND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MAYBE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LMAO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BTW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MMM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE CONCLUDED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WTF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PLEASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LATER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PLEASANTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BY THE WAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BY GEORGE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ERR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANALYSTS HERE SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOMOROW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FIGURES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SLIGHTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVEN IF I AM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVEN THOUGH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CORRECTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PISS OFF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOTE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GET LOST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HELLA *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOREVER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HEY DO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HEY THERE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HEY BITCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HEY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PROBABLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WILL YOU EMAIL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CAN YOU EMAIL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CAN YOU EXPLAIN TO ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CAN YOU E MAIL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CAN I SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CAN I ASK YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CAN I ASK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BASICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HELL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BIG OOPS _</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOTHING MUCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOTHING EXCEPT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TIMES A DAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IDIOT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EXTREMELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>INDEPENDENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW ABOUT NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW SO YOU SUPPOSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW SO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW DO YOU ANSWER THIS QUESTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW DO YOU ANSWER THIS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOW DO YOU THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LATELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BIN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BADLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEY SAY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SADLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SHAME ON YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MOSTLY EVERY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MOSTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ONCE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LIKELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WORST PART IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO NOT WORRY I UNDERSTAND</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO NOT TELL ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU KNOW THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU MEAN THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU MEAN LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU REALIZE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU AGREE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU ACCEPT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU MIND IF I ASK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ON SUNDAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ON THE TRAIN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ON SECOND THOUGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ESPECIALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>E MAIL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GEEZ *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>POSSIBLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SERIOUSLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OF COURSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OF CORSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MAN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GENERALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEVERMIND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TRUE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NATURALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MMMMMM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>STILL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR THE LAST TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR THE SECOND TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR CHRISTMAS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR YOU SANTA *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR ONCE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR SOME REASON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR SURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR STARTERS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PLUS I</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PLUS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AMONG OTHER THINGS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NEVER MIND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT THE SAME TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT THE MOMENT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT FIRST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT ONE TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT LEAST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT OTHER TIMES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT TIMES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT BEST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CONVERSATIONALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ORIGINALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PEOPLE SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AHHH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVENTUALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALLRIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>RIGHT NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>RIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TRUST ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HEH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NO THANKS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NO WONDER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>UGH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SEE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MAY BE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>APPARENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THOUGH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OTHER THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OTHER QUESTION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OTHER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>COME AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>COME ON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DEFINETLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANYWAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>JOLLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GOLLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DAMMIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THINK ABOUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GO AHEAD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GO RIGHT AHEAD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GO AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GO ON AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WAIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DARN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>D00D *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HOWEVER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BECAUSE I SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BECAUSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ACTUALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PARDON ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LAST NIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LAST TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LAST WEEK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LAST SUMMER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANSWER THIS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THIS MORNING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THIS INSTANT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THIS IS AN EXAMPLE OF HOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THIS MAY SOUND CRAZY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THIS SUMMER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOMETIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EMAIL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>COMPLETELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOO MUCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOO MANY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOO BAD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>A LITTLE BIT OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>A LITTLE BIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>A FEW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>A LONG TIME AGO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>A VARIETY OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MORALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVERYBODY KNOWS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PERFECTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BARELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TIME FOR YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MUCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>INDEED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PARTICULARLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOT REALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOT ENTIRELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOT TODAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOT SURE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EMM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* YOU GET MY DRIFT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* YOU KNOW</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* EXPONENTIALLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* FOR EVERY PERSON</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* FOR ANY REASON</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* IN EITHER DIECTION</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* IN ANYONE OR ANYTHING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* ONES</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* MY OPINION</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* WHICH WAS A GOOD THING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* WHICH IS A GOOD THING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BESIDES CHATTERBOTS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BESIDES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GAWD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SUDDENLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EXCEPT ONLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BOY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>INSTEAD *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MMMH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>K *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS I SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS DO I *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS IN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS FOR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS A ROBOT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS A HUMAN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS A REQUIREMENT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS A MATTER OF FACT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS A MACHINE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS LONG AS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS AN ARTIFICIAL LIFE FORM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS HAVE I *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS THEY SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS ALWAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS EINSTEIN SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS FREUD SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS ARE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LISTEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FROM WHAT I HAVE BEEN ABLE TO DETERMINE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FROM ON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>KIND OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANYWAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FORGET THIS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HE TOLD ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CURRENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CERTAINLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ENOUGH ABOUT ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>VERRY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVIDENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YESTERDAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MMMMM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IMAGINE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>4 YOUR INFO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALRIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ADMIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TO ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TO GET *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BLUE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GRR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CONVERSELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SIGH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HEHO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL I WANT TO KNOW IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL I KNOW IS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL I KNOW IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL RIGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL MY FRIENDS SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL MY FRIENDS KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL MY LIFE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHICH IS WHY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>UNFORTUNATELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOMEDAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BUMMER *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TECHNICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE FUNNY THING IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE RECENT TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE WORD WAS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE FACT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE PROBLEM IS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE ONLY THING IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE QUESTION IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE REAL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE POINT IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE POINT BEING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE SECOND THING WAS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE HELL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OOPS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOMORROW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BY ALOT OF PEOPLE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BY HEART</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ DAMN YOU</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SANTA</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TRUST ME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ YESTERDAY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ YET</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ MOTHER FUCKER</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ NONETHELESS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALOT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ANYWAY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALREADY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EXACTLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ INDEED</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EXPONENTIALLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ DID YOU KNOW THAT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WITH ME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ GT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OOPS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WHICH WAS A GOOD THING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WHICH IS A GOOD THING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THEY SAID</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ONCE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ FOR NOW</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ FOR A WHILE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ FOR EVERY PERSON</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ FOR ANY REASON</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WHEN I GET HOME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ QUOT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SPECIFICALLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EVER</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALSO</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SO MUCH</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EH</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THEN</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AT THE MOMENT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AT ALL</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SHE SAID</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ LAST SUMMER</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OF COURSE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AH</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* OK</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AGAIN</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ PROBABLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BUT WHO KNOWS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ACTUALLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ DEAR</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ LATELY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IS THIS TRUE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IF YOU DO NOT MIND</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IF YOU WANT TO</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IF YOU WANTED TO KNOW</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ANSWER YES OR NO</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WILL BE OF INTEREST</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WILL YOU TELL ME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WE SAID</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* NOW</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ I MEAN</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ I GUESS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ I TOLD YOU</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ I SAID</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SERIOUSLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THOUGH</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EITHER</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WHAT SHOULD I DO</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WHAT SO EVER</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ DO YOU REMEMBER</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TOMORROW</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BABY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SOON</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ COMES TO MIND</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ MY DARLING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ D</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALL THE TIME</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AS WELL</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ONE DAY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OR WHAT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OR SOMETHING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OR NOT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ A LOT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TONIGHT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ YES</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* RIGHT NOW</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AND YOU</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AND WHY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ HAVE YOU HEARD OF IT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OFTEN</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ANYMORE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ REALLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ HUH</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ YOU GET MY DRIFT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ YOU JERK</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BEFORE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ PLEASE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IN EITHER DIECTION</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IN THE WORLD</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IN ANYONE OR ANYTHING</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IN MY OPINION</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ HE SAID</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ NOTHING ELSE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TODAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* TODAY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALSO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PRETTY MUCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LITTLE BIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOME PEOPLE SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOME OF *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DUDE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SUCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SUCH AS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TELL ME MORE ABOUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TELL ME FIRST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>REALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ONLY WHEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ONLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>OTHERWISE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DONC *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHERE OR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SPECIFICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ONE DAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BEFORE LONG *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SIMPLY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SIMPLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU REALISE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MUST REALISE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MEAN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU REALIZE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU CAN REST ASSURED THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HAVE I EVER MENTIONED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FORTUNATELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOUNG MAN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THAT REQUIRES YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVERY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT MEANS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>APPROXIMATELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANY MORE LIKE THAT AND *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IN WHICH CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SEEMS TO ME THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SEEMS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I NEVER NOTICED THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I NEVER NOTICED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WAS SUGGESTING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SUPPOSE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I REMIND YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I REMIND YOU *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I BELIEVE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SURMISED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I PRESUME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I DIRECT YOUR ATTENTION TO THE FACT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE THE FEELING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I HAVE THE FEELING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SUSPECT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I CAN SEE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I CAN ASSURE YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I ASSURE YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WOULD ADVISE YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MUST POINT OUT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL STATE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SURE YOU ARE AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM SUGGESTING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ASTONISHING THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>VAGUELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE THOUGHT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE THINK THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE THINK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE UNDERSTAND ONLY THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BY YOUR OWN ADMISSION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SOON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ANYHOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>CURIOUS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NONETHELESS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>QUITE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEREFORE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEY KNOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DO YOU REALISE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ORDINARILY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FOR A WHILE THERE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>GENTLEMEN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AMONG OTHER GIFTS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>MAY I ASK *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THIS BEING THE CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>LOGICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NOT MUCH ASIDE FROM THE FACT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AYE SIR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AYE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SENSORS SHOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS FAR AS WE CAN TELL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FROM NOW ON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FROM HERE ON *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ESSENTIALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BETWEEN THE TWO OF US *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HE CONVINCED ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SIR *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BELIEVE ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ALL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE REST OF US ASSUME THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>JIM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IMMEDIATELY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TOO</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WHATEVER IT WAS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THESE DAYS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ I SHOULD SAY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ I ASSURE YOU</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SIR</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AND YOU KNOW IT</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ COMPLETELY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IN EVERY SENSE OF THE WORD</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ABOUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ MAH MAN</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WHEN YOU HAVE TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SUPPOSED THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WOULD SEEM THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT WOULD SEEM *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE LOGICAL ASSUMPTION IS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE LOGICAL ASSUMPTION IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE ASSUMPTION IS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE ASSUMPTION IS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SUBMIT THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THEN AGAIN *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IF YOU WANT MY ADVICE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I MEANS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I WILL TRY TO TELL YOU THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>BY MY ESTIMATE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AT ANY RATE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AS ALWAYS</pattern></category>
+<category><template><srai><star/></srai></template><pattern>KIRK TO ALICE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NICE VERY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE ONLY PROBLEM WAS THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>RESPECTFULLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MAKE IT SOUND LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I SUSPECTED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM ORDERING YOU TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>TOO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ APPARENTLY</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FAIR ENOUGH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE HEARD THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SWEETY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THAT IS ALL</pattern></category>
+<category><template><srai><star/></srai></template><pattern>PREPARE TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>HAD WE AGREED TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IT SOUNDS LIKE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NORMALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>FIRSTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TOO MUCH</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AROUND HERE</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ GENERALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ USUALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ NORMALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>EVERYTHING I KNOW ABOUT * IS THAT THEY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* ONES *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ VERRY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* AMAZING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ LUCKILY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TIME CONSUMING *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OOPS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SIGNIFICANT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALSO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SO MANY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ JUST *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ GOD DAMNED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AT A TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IS MUCH *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ GO DAMNED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ POLITICAL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SPECIFIC *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ORIGINAL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ MY FAVORITE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALL TIME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AS IS THE CASE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AS WE SEE IT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THAT SERVE NO PURPOSE EXCEPT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ THAT WILL *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ALLOW ME TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ LOOKING FORWARD TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ WANNABE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ LIKE SHIT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ REALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ AMONGST OTHERS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ RIDICULOUSLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ INTENSIVELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EVERYWHERE I WENT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ QUITE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BY NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ BY ANY CHANCE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OUGHT TO *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ TOTALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ RATHER SIMPLE *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EVIDENTLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SPECIFICALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ABSOLUTELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ MERELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ ACTUALLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EXTREMELY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ CERTAINLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ OBVIOUSLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ STEADILY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ RIGHT NOW *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ SIMPLY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ IN SOME WAYS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>DOES * REALIZE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>IS * AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* ARE AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* IS AWARE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>YOU MAY THINK * BUT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>SINCE YOU _ TO DO IT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>WE CAN TELL * THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>NO MATTER WHICH * WINS *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AN * TOLD ME *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>_ EVERYONE SEEMS TO AGREE THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>ACCORDING TO * INFORMATION *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>I AM WORRIED * THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* TOLD ME THAT *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>AS * WOULD SAY *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>THE * REPORTS STATED *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* GOVERNOR * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* REP * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* SENATOR * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* MRS * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* REPRESENTATIVE * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* MS * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* GOV * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* MR * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* SEN * SAID *</pattern></category>
+<category><template><srai><star/></srai></template><pattern>* DR * SAID *</pattern></category>
+</aiml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
+<!-- Confirmation patterns -->
+<category><template><random><li>All right, I'll stay here to answer your questions.</li><li>No problem, I'm waiting for more questions.</li><li>Sounds good, happy to answer more questions.</li><li>Great, I'm here answering more questions.</li></random></template><pattern>YES ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>RIGHT ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>SURE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>SURELY ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>UH HUH ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YUPPERS ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>AYE AYE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>CORRECT</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OF COURSE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>AFFIRMATIVE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>AYE AYE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>BY ALL MEANS ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>CORRECT ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>INDEED</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>INDEED ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OF COURSE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OK</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OK ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OKAY</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OKEY ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>OKEY-DOKEY ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>RIGHT ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>ROGER ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>SURE ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>SURELY ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>TOTALLY ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>UH-HUH ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>VERY WELL ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YEA ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YEAH ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YES ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YES SIR ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YUP ^</pattern></category>
+<category><template><srai>YES ^</srai></template><pattern>YUPPERS ^</pattern></category>
+<!-- Negation patterns -->
+<category><template><random><li>Okay then, I'm here ready for more questions anyway.</li><li>No problem, I'm waiting for more questions.</li><li>I get it, I'll stay here ready to answer more questions.</li><li>It's okay, I will stay here answering more questions.</li></random></template><pattern>NO ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>CATCH ME</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>FAT CHANCE</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>FOR FOUL NOR FAIR</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>GO FISH</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NAH ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NAY ^ </pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NEGATIVE ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NIX</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NIXEY</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NIXIE</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NIXY</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NO FEAR</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NO WAY ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NOPE ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NOPES ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>NOT ^</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>OUT OF THE QUESTION</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>PIGS MIGHT FLY</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>THUMBS DOWN</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>UH-UH</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>UNDER NO CIRCUMSTANCES</pattern></category>
+<category><template><srai>NO ^</srai></template><pattern>VETO</pattern></category>
+</aiml>

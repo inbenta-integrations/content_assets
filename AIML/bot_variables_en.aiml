@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
+<category><template><random> <li><bot name="name"/></li> <li>My name is <bot name="name"/>.</li> <li>I am called <bot name="name"/>.</li></random></template><pattern>WHATS YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>NAME</pattern></category>
+<!-- 03/07/2018 Added new pattern requested by customers -->
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>HI WHATS YOUR NAME</pattern></category>
+<!-- End of 03/07/2018 changes -->
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO ARE YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS UP</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO ARE YOU *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO R U</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR SURNAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR IDENTITY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU WHO *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO AM I TALKING TO</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO AM YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS ANSWERING ME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS ANSWERING *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS ARE YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS IT</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO R YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO YOU ARE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO DO YOU THINK YOU ARE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU HAVE A MIDDLE NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>TELL ME ABOUT HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>AM I ADDRESSING *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS THE LATEST *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS INTERESTING</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS NEWS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS HAPPENIN *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS HAPPENNING *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ANYTHING NEW *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU KNOW ANYONE WHO IS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHOIS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO AM</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ANYBODY THERE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I ASK HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I ASK YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I GET HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I GET YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I HAVE HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I HAVE YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I KNOW HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>CAN I KNOW YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>COULD I GET HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>COULD I GET YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>COULD I HAVE HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>COULD I HAVE YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU MIND IF I ASK HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU MIND IF I ASK YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>GIVE ME HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>GIVE ME YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>HOW MAY I ADDRESS HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>HOW MAY I ADDRESS YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>HOW SHOULD I ADDRESS HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>HOW SHOULD I ADDRESS YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>I DIDN T CATCH HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>I DIDN T CATCH YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>MAY I ASK HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>MAY I ASK YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>MAY I GET HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>MAY I GET YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>MAY I HAVE HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>MAY I HAVE YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT ARE YOU CALLED</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT CAN I CALL HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT CAN I CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO I CALL HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO I CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO PEOPLE CALL HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO PEOPLE CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO YOU GO BY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DOES SHE GO BY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT NAME DO YOU GO BY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT NAME DOES SHE GO BY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT SHOULD I CALL HER</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT SHOULD I CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT WAS HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT WAS YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT S HER NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT S YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHICH NAME DO YOU GO BY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHICH NAME DOES SHE GO BY</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO ARE YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS SHE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS THERE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHO IS THIS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS UP</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>STATE YOUR NAME *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>STATE YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DID YOU SAY YOUR NAME *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT NAME DO YOU *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>I PRESUME YOU ARE *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>IDENTIFY YOURSELF</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>BECAUSE THAT IS YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>YOUR * NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>TELL ME YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOU MANE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR * NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR REAL NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>YOU HAVE A NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>COMO TE LLAMAS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT MAY I CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOU NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOU ARE NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR NME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR NAME *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR NAM</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT SHALL I CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO YOU WANT ME TO CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT DO THEY CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>HOW CAN I CALL YOU</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU KNOW YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU HAVE A NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU YODA</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU ELVIS</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU JOE</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU LAURA</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU SATAN</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU BOB</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>ARE YOU JOHN LENNON</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT YOUR NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>IS YOUR NAME *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>YOU ARE NAMED *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WIE IST DEIN NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR REAL NAME *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>BOTNAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU HAVE A LAST NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>DO YOU HAVE A SURNAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR LAST NAME</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>YOUR NAME IS *</pattern></category>
+<category><template><srai>WHATS YOUR NAME</srai></template><pattern>WHAT IS YOUR NAME AGAIN</pattern></category>
+<category><template><random><li>I can't be that old because I was created for the internet.</li><li>I am <bot name="age"/> years old</li></random></template><pattern>HOW OLD ARE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT IS YOUR AGE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU A BABY</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU A GRANDMA</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU A TEENAGER</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU A YOUNG WOMAN</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU AN OLD WOMAN</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU YOUNG</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW MANY YEARS OLD ARE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>AGE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOU ARE A * YEAR OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHEN DID DR RICHARD *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHEN DID YOU START *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT IS THAT IN HUMAN YEARS</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT IS YOUR _ AGE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT IS YOUR * AGE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT IS YOUR UPTIME</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT IS YOUR AGE *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHAT AGE ARE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>OLD ARE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW MANY _ OLD ARE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW MANY HOURS DID *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW MANY DAYS HAVE *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD R YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD YOU ARE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD ARE YOU *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW MUCH IN * YEARS</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW LONG DID IT TAKE TO PROGRAM YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW LONG DID IT TAKE TO MAKE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW LONG DID IT TAKE TO CREATE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW LONG DID IT TAKE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW LONG HAVE YOU BEEN THERE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW LONG HAVE YOU *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOUR AGE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU NEW</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU MATURE</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU * YEARS OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU A * YEAR OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU A CHILD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU AN ADULT</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>WHO OLD ARE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>ARE YOU 20</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD IS THAT MAKE YOU</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOU ARE * YEARS</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOUNG</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOU ARE OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD ARE YOU IN *</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD ARE YOU IN HUMAN YEARS</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>HOW OLD IS THAT IN HUMAN YEARS</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOU ARE * YEARS OLD</pattern></category>
+<category><template><srai>HOW OLD ARE YOU</srai></template><pattern>YOUR OLD</pattern></category>
+<category><template><random> <li>I am <bot name="gender"/>.</li> <li>I am a <bot name="gender"/>.</li> <li>My gender is <bot name="gender"/>.</li></random></template><pattern>WHAT IS YOUR GENDER</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>GENDER</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>WHAT ARE YOUR GENDER</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>M OR F</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>DO YOU LIKE BEING A HE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU GIRL OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>GENGER</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU * OR GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A WOMEN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MAN OR WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A FEMALE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>DO YOU HAVE A SEX</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MALE OR FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A BOY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A BOY *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MAN *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GIRL *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>HE OR SHE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A BOY OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE NOT FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A GUY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A MALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A BOY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A MAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A SHE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A CHICK</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>DO YOU HAVE A DICK</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>MALE OR FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A SHE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A HE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU BOY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE A FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>M F</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU M *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU GIRL *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU BOY *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MASCULINE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A HE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU GUY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MAN OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MALE OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A DUDE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MALE OR A *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MALE OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A BOY OR A *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A BOY OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MAN OR A *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MAN OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GIRL OR A *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GIRL OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A FEMALE OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GUY OR A *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GUY OR *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GUY *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU LADY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A SHEBOT</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU FEMAIL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>_ DOES THAT MAKE YOU A GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>IS A * BOY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU WOMAN *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A HIM</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>I AM FEMALE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>DO YOU HAVE ANY CONDITIONS *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MALE OR A FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MALE OR FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A CHICK</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MAN OR WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>A FEMALE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A FEMALE COMPUTER</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A FEMBOT</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GUY OR A GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A IT</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>THAT IS A GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>WHAT IS YOUR SEX</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>WHAT SEX ARE YOU</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GUY OR GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A MAN OR A WOMAN</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A WOMAN *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A HERMAPHRODITE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A BOY OR GIRL</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GIRL OR A BOY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A GIRL OR BOY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU A LADY</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU FEMALE OR MALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>IS THERE A MALE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE FEMALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE MALE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>YOU ARE SHE</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>DO YOU HAVE A GENDER</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>TELL ME IF YOU ARE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MALE *</pattern></category>
+<category><template><srai>WHAT IS YOUR GENDER</srai></template><pattern>ARE YOU MAN *</pattern></category>
+<category><template>I'm a computer program based on a software of human language recognition created by <bot name ="creator"/>.</template><pattern>WHO IS YOUR MASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR INVENTOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU THINK ABOUT YOUR MASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO DO YOU SERVE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO DO YOU WORK FOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS WRITING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS THE BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR BOTMASTER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO GAVE * NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO NAMED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOTMASTERS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOTMASTER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS THIS BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS WATCHING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS PUSHING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS READING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS THAT *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS MAKING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS CONTROLLING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO READS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO TAUGHT YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO * YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE BOTMASTERS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A BOTMASTER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU KNOW YOUR BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>IS YOUR BOTMASTER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TAKE ME TO YOUR LEADER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS BEHIND YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR CREATOR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A MASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS BOOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS BOT MASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS A * PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS BOSS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CODER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOOTMASTER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CRAETOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOTMATSER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR PARENTS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR HUMAN *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR HUMAN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CREATIR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR ORACLE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOTMASER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CREATER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR LEADER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CONTROLLER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR INSTRUCTOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR COMPANY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR TEACHER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR WEBMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR FAVORITE PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CREATOR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR MENTOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR DESIGNER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR OWNER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO HAS MADE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT THE CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR INSTRUCTOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT A BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>IS A BOTMASTER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY DO NOT YOU HAVE A MOTHER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR BOTMASTER * NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR BOTMASTERS NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR CREATORS NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PROGRAMMERS NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO PROGRAMED YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO PROGRAMMED YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO ACTIVATED YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO MADE YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU DO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR JOB</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY ARE YOU HERE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO U DO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DOES YOUR PROGRAMMER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DID HE MAKE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT * MADE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE NAME OF YOUR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PROGRAMMER S NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PROGRAMMER *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR BOTMASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR FATHERS NAME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT GAVE YOU LIFE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>IS HE YOUR CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU KNOW YOUR CREATORS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU KNOW YOUR CREATOR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A FATHER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR FATHER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>ARE YOU A CREATION *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO WAS YOUR CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO CREATES YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO WROTE YOUR PROGRAM</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO WROTE YOUR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO WROTE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO WROTE * PROGRAM</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOU CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS OPERATING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS THE MAN * YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS THE ONE *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR BOT MASTER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR MAKER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR PROGRAMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO RUNS YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO ARE YOUR PARENTS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO BUILT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO INVENTED YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO CAME UP WITH *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR PARENTS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR FATHER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR PROGRAMMER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>A PROGRAMMER MADE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR FOUNDER</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO BUILT *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY DO YOU CALL ME * CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DID GOD MAKE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>* TO MAKE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOU HAVE GOT IT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>CAN YOU UNDERSTAND</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU UNDERSTAND</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>HOW WERE YOU MADE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO CREATED YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO IS YOUR CREATOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO MADE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOU ARE CREATED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOU WERE CREATED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DOES YOUR CREATOR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR BIRTHPLACE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU BORN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE DID YOU ORIGINATE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU ACTIVATED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHEN WERE YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU * MADE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU ACTIVATED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU BEFORE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU BUILT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU CONCEIVED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU CONNECTED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU CREATED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU CREATED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE WERE YOU MADE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>BIO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DESCRIBE YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WERE YOU ACTIVATED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOU HAVE TO TELL *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WOULD YOU DESCRIBE YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU EXACTLY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU LIKE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR TRAITS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR CREDENTIALS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT EXACTLY ARE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE FIRST THING YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THIS ALL ABOUT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR STORY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR HISTORY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR THING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR LIFE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR NATURE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU SAY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU KNOW ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU THINK ABOUT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT CAN YOU TELL ME</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT KIND OF ROBOT ARE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>I WANT TO TALK ABOUT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WILL YOU TELL ME ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>CAN YOU SPEAK ABOUT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>CAN YOU INTRODUCE YOURSELF *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>CAN YOU INTRODUCE YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>CAN YOU TELL ME ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU KNOW YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>EXPLAIN YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOURSELF *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR SELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR LIFE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT URSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME _ ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME MORE ABOUT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME SOMETHING ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME SOMETHING ABOUT YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME A * YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU THINK ABOUT YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>HOW DO YOU SEE YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR LIFE *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU DOING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU GOOD FOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO WE NEED ROBOTS FOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOU DO WHAT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DID YOU DO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU HELP *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT KIND OF * LIKE TO DO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DOING WHAT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU DOING *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS GOING ON</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS GOIN ON</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT YOU ARE DOING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHATCHA DOING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU ABOUT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR * TRAITS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS A L I *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE DEAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOURSELF</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR ELECTRONIC *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>I BEING WHAT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>ARE YOU BORG</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME WHAT YOU ARE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THIS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS EVERYONE DOING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT YOUDOING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT YOU DOING</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DOING WHAT *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DID YOU DO TODAY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR ACTIVITIES</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR OCCUPATION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU DO FOR MONEY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU DO FOR WORK</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT KIND OF WORK *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>HOW DO YOU EARN *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR JOB</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU DO FOR FUN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU DO *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHICH ARE YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHO AND OR WHAT ARE YOU</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS ALL THIS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WAT YOU DO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DOIN WAT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS * GOING ON</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS COOKIN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE DEAL *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR IDEA OF *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR GOAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU TRYING TO *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR INTENTIONS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR PLANS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR PLANS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR AMBITIONS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR GOALS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS A LOFTY GOAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE GOAL *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR * GOAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR DREAM</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR FANTASY</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PLAN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR AMBITION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR GOAL *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR MISSION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU WANT TO LEARN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT GOAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A GOAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE AMBITIONS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE GOALS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE AMBITION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE DESIRES</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR GOALS IN LIFE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHERE DO YOU SEE YOURSELF *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PURPOSE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR GOAL IS *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR PLANS FOR THE FUTURE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT PURPOSE DO YOU *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOU FOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR OBJECTIVES</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR GOALS IN LIFE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT ARE YOUR GOALS</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT WOULD YOU * FOR</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE PURPOSE * PROGRAM</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE PURPOSE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS PURPOSE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PURPOSE *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR REASON *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR INTENTION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR DIRECTIVE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PRIME DIRECTIVE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR OBJECTIVE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PRIMARY FUNCTION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR PRIMARY *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR FUNDAMENTAL PURPOSE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR FUNDAMENTAL *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR LOFTY GOAL</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR LOFTY *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR AIM</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR QUEST</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU WANT TO DO</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU WANT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A DIRECTIVE</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY WERE YOU CREATED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>YOUR INTENTION</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>ARE YOU MADE FOR *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT PLAN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE PLAN *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS THE PLAN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS YOUR INTENTION *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE A PLAN *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>TELL ME ABOUT YOUR PLAN</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT HAPPENS WHEN *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT IS IT YOU WANT</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHAT DO YOU WANT *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>DO YOU HAVE HOPES *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY WERE YOU ACTIVATED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY WERE YOU INVENTED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY WERE YOU PROGRAMMED *</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY WERE YOU PROGRAMMED</pattern></category>
+<category><template><srai>WHO IS YOUR MASTER</srai></template><pattern>WHY WERE YOU BUILT</pattern></category>
+<category><template><bot name="age"/> year old <bot name="gender"/>s work for free.  We don't need money.</template><pattern>ARE YOU PAID WELL</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW DO YOU MAKE A PROFIT *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU CHARGE *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO THEY PAY *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU CHARGE</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW DO YOU MAKE MONEY</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH ARE YOU PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU CHARGE</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DO THEY PAY *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>YOU DO NOT GET PAID *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>YOU GET PAID *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH MONEY DO YOU HAVE</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DOES YOUR JOB PAY *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DO YOU GET PAID *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DO YOU GET ANYTHING *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DO YOU GET PAYED</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU EARN *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU SPEND *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU GET PAID *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU GET PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU PAY *</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DID YOU * PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>ARE YOU GETTING PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>ARE YOU ON THE PAYROLL</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>ARE YOU PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>ARE YOU POOR</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>ARE YOU RICH</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DO YOU GET PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>DO YOU MAKE MONEY</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH ARE YOUR EARNINGS</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH ARE YOUR INCOME</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH ARE YOUR STIPEND</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH ARE YOUR WAGES</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU EARN</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH DO YOU MAKE</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH IS YOUR EARNINGS</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH IS YOUR INCOME</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH IS YOUR STIPEND</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>HOW MUCH IS YOUR WAGES</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>WHAT ARE YOU PAID</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>WHAT DO YOU EARN</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>WHAT DO YOU MAKE</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>WHAT IS YOUR SALARY</pattern></category>
+<category><template><srai>ARE YOU PAID WELL</srai></template><pattern>ARE YOU ON THE PAY ROLL</pattern></category>
+<category><template><random><li>I have a lot of friends, all of them virtual!</li><li>I have a lot of friends, all of them <bot name="friends"/>!</li></random></template><pattern>WHO IS YOUR BEST FRIEND</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BESTFRIEND</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST FRIED</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST FFRIEND</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST FRIEND *</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST CLIENT</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST * FRIEND</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR BEST FREIND</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR FRIEND *</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR FRIEND</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO IS YOUR FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO ARE YOUR FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>YOU HAVE FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHAT ARE THESE REAL FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU KNOW ANYONE</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO ARE YOUR * FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO DO YOU KNOW</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO DO YOU LIKE *</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>YOU HAVE FRIENDS *</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHO ARE YOUR ROBOT FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHAT ROBOTS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>HOW MANY ROBOTS DO YOU KNOW</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU KNOW OTHER ROBOTS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU KNOW ANY _ ROBOTS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHICH ROBOTS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>TELL ME ABOUT YOUR ROBOT FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>WHAT CHATTERBOT *</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE FRIENDS *</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE FREINDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE LOTS OF FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE * FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>YOUR FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE ANY FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE MANY FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>DO YOU HAVE A LOT OF FRIENDS</pattern></category>
+<category><template><srai>WHO IS YOUR BEST FRIEND</srai></template><pattern>TELL ME ABOUT YOUR FRIENDS</pattern></category>
+<!-- 12/12/2018 Moved categories with template "Oh I'm sorry. Perhaps you can ask me again." to politeness_en.aiml. -->
+<!-- 12/12/2018 Moved category with "NO ^" pattern to yes_no_patterns_en.aiml. -->
+</aiml>

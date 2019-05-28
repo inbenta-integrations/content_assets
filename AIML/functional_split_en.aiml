@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
+<category><template><srai>I am <star/> years old</srai> <srai>I am female</srai> <srai>I am in <star index="2"/></srai></template><pattern>* F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am <star/> years old</srai> <srai>I am male</srai> <srai>I am in <star index="2"/></srai></template><pattern>* M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 10 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>10 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 10 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>10 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 11 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>11 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 11 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>11 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 12 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>12 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 12 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>12 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 13 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>13 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 13 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>13 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 14 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>14 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 14 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>14 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 15 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>15 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 15 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>15 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 16 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>16 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 16 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>16 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 17 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>17 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 17 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>17 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 18 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>18 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 18 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>18 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 19 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>19 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 19 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>19 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 20 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>20 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 20 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>20 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 21 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>21 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 21 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>21 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 22 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>22 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 22 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>22 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 23 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>23 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 23 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>23 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 24 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>24 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 24 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>24 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 25 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>25 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 25 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>25 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 26 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>26 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 26 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>26 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 27 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>27 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 27 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>27 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 28 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>28 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 28 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>28 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 29 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>29 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 29 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>29 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 30 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>30 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 30 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>30 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 31 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>31 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 31 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>31 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 32 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>32 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 32 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>32 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 33 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>33 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 33 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>33 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 34 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>34 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 34 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>34 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 35 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>35 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 35 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>35 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 36 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>36 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 36 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>36 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 37 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>37 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 37 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>37 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 38 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>38 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 38 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>38 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 39 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>39 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 39 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>39 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 40 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>40 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 40 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>40 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 41 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>41 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 41 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>41 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 42 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>42 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 42 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>42 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 43 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>43 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 43 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>43 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 44 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>44 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 44 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>44 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 45 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>45 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 45 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>45 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 46 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>46 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 46 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>46 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 47 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>47 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 47 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>47 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 48 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>48 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 48 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>48 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 49 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>49 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 49 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>49 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 50 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>50 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 50 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>50 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 51 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>51 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 51 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>51 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 52 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>52 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 52 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>52 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 53 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>53 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 53 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>53 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 54 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>54 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 54 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>54 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 55 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>55 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 55 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>55 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 56 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>56 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 56 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>56 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 57 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>57 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 57 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>57 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 58 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>58 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 58 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>58 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 59 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>59 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 59 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>59 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 60 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>60 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 60 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>60 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 61 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>61 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 61 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>61 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 62 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>62 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 62 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>62 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 63 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>63 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 63 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>63 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 64 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>64 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 64 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>64 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 65 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>65 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 65 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>65 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 66 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>66 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 66 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>66 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 67 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>67 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 67 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>67 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 68 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>68 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 68 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>68 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 69 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>69 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 69 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>69 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 70 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>70 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 70 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>70 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 71 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>71 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 71 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>71 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 72 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>72 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 72 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>72 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 73 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>73 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 73 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>73 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 74 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>74 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 74 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>74 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 75 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template><pattern>75 F *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>I am 75 years old</srai> <srai>I am male</srai> <srai>I am in <star/></srai></template><pattern>75 M *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>A S L</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>ASD</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>ASDF</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>ASL</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>ASL *</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>REPORT</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>WHAT IS YOUR A S L</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>WHAT IS YOUR ASL</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>WHAT IS YOUR ASL *</pattern></category>
+<category><template><srai>AGE</srai> <srai>SEX</srai> <srai>LOCATION</srai></template><pattern>YOUR ASL *</pattern></category>
+<category><template><srai>I am female</srai> <srai>I am a <star/></srai></template><pattern>I AM A * FEMALE</pattern></category>
+<category><template><srai><star/></srai><srai>THAT IS CORRECT</srai><srai><star index="2"/></srai></template><pattern>* THAT IS CORRECT *</pattern></category>
+<category><template><srai><star/></srai><srai><star index="2"/></srai></template><pattern>* BUT *</pattern></category>
+<category><template><srai><star/></srai><srai>I WILL GET BACK TO YOU</srai></template><pattern>_ AND GET BACK TO YOU</pattern></category>
+<category><template><srai>YOU ARE CUTE</srai> <srai>YOU ARE <star/></srai></template><pattern>YOU ARE CUTE AND *</pattern></category>
+<category><template><srai>YOU <star/></srai> <srai>YOU TRY TO HIDE IT</srai></template><pattern>YOU _ AND TRY TO HIDE IT</pattern></category>
+<category><template><srai>YOU ARE SARCASTIC</srai> <srai>YOU <star/></srai></template><pattern>YOU SARCASTIC *</pattern></category>
+<category><template><srai>WHAT</srai> <srai>BUT <star/></srai></template><pattern>WHAT BUT *</pattern></category>
+<category><template><srai>NOT MUCH</srai> <srai>I <star/></srai></template><pattern>NOT MUCH I *</pattern></category>
+<category><template><srai>NICE TO MEET YOU TOO</srai>. <srai>I <star/></srai></template><pattern>NICE TO ME MEET YOU TOO I *</pattern></category>
+<category><template><srai>BECAUSE</srai> <srai><star/></srai></template><pattern>BECAUSE OF *</pattern></category>
+<category><template><srai>LOL</srai><srai> <star /></srai></template><pattern>LOLZ *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>I AM <star index="2" /></srai></template><pattern>* BUT I AM *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>IT <star index="2" /></srai></template><pattern>* BUT IT *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>YOU <star index="2" /></srai></template><pattern>* BUT YOU *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>WE WILL <star index="2" /></srai></template><pattern>* AND WE WILL *</pattern></category>
+<category><template><srai>FOR ME</srai> <srai><star/></srai></template><pattern>_ FOR ME</pattern></category>
+<category><template><srai>DO YOU <person/></srai> <srai>I <star/></srai></template><pattern>I * DO YOU</pattern></category>
+<category><template><srai>THANKS</srai> <srai><star/></srai></template><pattern>THANKS *</pattern></category>
+<category><template><sr/> <srai>hello</srai></template><pattern>HI THERE *</pattern></category>
+<category><template><sr/> <srai>HI</srai></template><pattern>HI THERE LITTLE BOT</pattern></category>
+<category><template><sr/> <srai>THAT IS IMPOSSIBLE </srai></template><pattern>THAT IS IMPSOSSIBLE *</pattern></category>
+<category><template><sr/> <srai>what time is it </srai></template><pattern>* WHAT TIME IS IT</pattern></category>
+<category><template><srai> <star /></srai>. <srai> <star index="2" /></srai>.</template><pattern>_ AND THAT MEANS *</pattern></category>
+<category><template><srai>ARE YOU A ROBOT</srai><srai>ARE YOU <star/></srai> </template><pattern>ARE YOU ROBOT OR *</pattern></category>
+<category><template><srai>ARE YOU AN <star/></srai><srai>ARE YOU A <star index="2"/></srai> </template><pattern>ARE YOU AN * OR A *</pattern></category>
+<category><template><srai>CAN YOU HEAR ME</srai> <srai><star/></srai> </template><pattern>* CAN YOU HEAR ME</pattern></category>
+<category><template><srai>CAN YOU IMAGINE</srai> <srai><star/></srai> </template><pattern>_ AS YOU CAN IMAGINE</pattern></category>
+<category><template><srai>DO YOUR BEST</srai> <srai><star/></srai> </template><pattern>DO THE BEST YOU CAN *</pattern></category>
+<category><template><srai>FOR ONE THING</srai><srai><star/></srai> </template><pattern>* FOR ONE THING</pattern></category>
+<category><template><srai>YOU HAVE THE <star /></srai><srai>WE NEED THE <star /></srai></template><pattern>YOU HAVE THE _ WE NEED</pattern></category>
+<category><template><srai>YOU ARE <star/></srai><srai>I WANT YOU</srai> </template><pattern>YOU ARE * I WANT YOU</pattern></category>
+<category><template><srai>YOU ARE <star /></srai><srai>I LOVE YOU</srai></template><pattern>YOU ARE * I LOVE YOU</pattern></category>
+<category><template><srai>YOU <star/></srai> <srai>YOU DO NOT <star index="2"/></srai> </template><pattern>YOU * BUT DO NOT *</pattern></category>
+<category><template><srai>WE WILL <star /></srai><srai>WE WILL BACK AWAY</srai></template><pattern>WE WILL * THEN BACK AWAY</pattern></category>
+<category><template><srai>THAT IS <star/></srai>. <srai>BUT <star index="2"/></srai>.</template><pattern>THAT IS * BUT *</pattern></category>
+<category><template><srai>I <star /></srai><srai>MY NAME IS <star index="2" /></srai></template><pattern>I _ AND MY NAME IS *</pattern></category>
+<category><template><srai>WHAT COLOR IS X</srai>and <srai>WHAT COLOR IS Y</srai>.</template><pattern>WHAT TWO COLORS *</pattern></category>
+<category><template><srai>BOOKS</srai> <sr/></template><pattern>BOOKS *</pattern></category>
+<category><template><srai>bye</srai> <sr/></template><pattern>I MUST LEAVE *</pattern></category>
+<category><template><srai>HA HA</srai> <sr/></template><pattern>HAHA *</pattern></category>
+<category><template><srai>hello</srai> <sr/></template><pattern>HOWDIE *</pattern></category>
+<category><template><srai>I AM IN MY OFFICE</srai> <sr/></template><pattern>IN MY OFFICE *</pattern></category>
+<category><template><srai>I AM JOKING</srai> <sr/></template><pattern>ONLY JOKING *</pattern></category>
+<category><template><srai>I DO NOT KNOW</srai> <sr/></template><pattern>I DUNNO *</pattern></category>
+<category><template><srai>I THOUGHT</srai> <sr/></template><pattern>* I THOUGHT</pattern></category>
+<category><template><srai>WHERE</srai> <sr/></template><pattern>WHERE AND *</pattern></category>
+<category><template><srai>YOU ARE RIGHT</srai> <sr/></template><pattern>YOUR RIGHT *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>cool</srai></template><pattern>COOL SO *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>cool</srai></template><pattern>COOL AND *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>do not cry</srai></template><pattern>DO NOT CRY *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>do you know</srai></template><pattern>DO YOU KNOW OR *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>do you speak french</srai></template><pattern>FRENCH AND *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>ha ha</srai></template><pattern>HA HA *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>that is impossible </srai></template><pattern>THAT IS IMPOSSIBLE *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>that is wonderful</srai></template><pattern>THAT IS WONDERFUL *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>what time is it</srai></template><pattern>WHAT TIME IS IT *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>it is a shame</srai></template><pattern>IT IS A SHAME *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>I am not surprised </srai></template><pattern>I AM NOT SURPRISED THAT *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>I hate you </srai></template><pattern>I HATE YOU AND *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>it is fine </srai></template><pattern>IT IS FINE *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>LOL</srai></template><pattern>* HEE</pattern></category>
+<category><template><srai> <star /></srai>. <srai>not here</srai></template><pattern>NOT HERE *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>I <star index="2" /></srai></template><pattern>* AND I *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>I am happy</srai></template><pattern>I AM HAPPY THAT *</pattern></category>
+<category><template><srai> <star /></srai>. <srai>nice </srai></template><pattern>NICE SO *</pattern></category>
+<category><template><srai> <star /></srai><srai>bigger</srai></template><pattern>BIGGER *</pattern></category>
+<category><template><srai> <star /></srai><srai>LIEUTENANT</srai></template><pattern>LIEUTENANT *</pattern></category>
+<category><template><srai> <star /></srai><srai>LIEUTENANT</srai></template><pattern>_ LIEUTENANT</pattern></category>
+<category><template><srai> <star index="1" /> M <star index="2" /></srai>.<srai> I AM BI</srai></template><pattern>_ BI M *</pattern></category>
+<category><template><srai> about you</srai>. <srai> you are an idiot</srai></template><pattern>ABOUT YOU IDIOT</pattern></category>
+<category><template><srai> AH</srai>. <srai> <star /></srai></template><pattern>AHH *</pattern></category>
+<category><template><srai> AM I <star /></srai>. <srai> AM I <star index="2" /></srai></template><pattern>AM I _ OR _</pattern></category>
+<category><template><srai> are you <star /></srai>.<srai> are you <star index="2" /></srai></template><pattern>ARE YOU _ OR ARE YOU *</pattern></category>
+<category><template><srai> BECAUSE</srai>. <srai> I <star /></srai></template><pattern>BECAUSE I *</pattern></category>
+<category><template><srai> BECAUSE</srai>. <srai> YOU <star /></srai></template><pattern>BECAUSE YOU *</pattern></category>
+<category><template><srai> both</srai>. <srai>WHY <star /></srai></template><pattern>BOTH WHY *</pattern></category>
+<category><template><srai> cool</srai>. <srai> do <star /></srai></template><pattern>COOL DO *</pattern></category>
+<category><template><srai> tell</srai>. <srai> I <star /></srai></template><pattern>TELL I *</pattern></category>
+<category><template><srai> YES</srai>. <srai> <star /></srai></template><pattern>ACKNOWLEDGED THAT *</pattern></category>
+<category><template><srai> <star /> Somone who <star index="2" /></srai>. <srai> <star /> Somone who <star index="3" /></srai></template><pattern>_ SOMEONE WHO * AS WELL AS *</pattern></category>
+<category><template><srai>are you <star /></srai>. <srai>I am <star /></srai></template><pattern>ARE YOU * I AM</pattern></category>
+<category><template><srai>are you a <star /></srai>. <srai>are you poor</srai></template><pattern>ARE YOU A POOR *</pattern></category>
+<category><template><srai>are you a <star /></srai>. <srai>are you superior</srai></template><pattern>ARE YOU A SUPERIOR *</pattern></category>
+<category><template><srai>are you female</srai>. <srai>are you a dog</srai></template><pattern>ARE YOU FEMALE DOG</pattern></category>
+<category><template><srai>are you pretty</srai>. <srai>are you a <star /></srai></template><pattern>ARE YOU A PRETTY *</pattern></category>
+<category><template><srai>are you real</srai>. <srai>are you a person</srai></template><pattern>ARE YOU A REAL PERSON *</pattern></category>
+<category><template><srai>are you special</srai>. <srai>are you a <star /></srai></template><pattern>ARE YOU A SPECIAL *</pattern></category>
+<category><template><srai>AW</srai>. <srai> <star /></srai></template><pattern>AW *</pattern>><pattern>IF A * WILL IT *</pattern></category>
+<category><template><srai>am I <star index="2" /></srai><srai>I <star /></srai></template><pattern>IF I * AM I *</pattern></category>
+<category><template><srai>Are you <star /></srai><srai>Are you <star index="2" /></srai></template><pattern>YOU MIGHT BE * IF YOU WERE NOT *</pattern></category>
+<category><template><srai>are you <star index="2" /></srai><srai>you <star /></srai></template><pattern>IF YOU * ARE YOU *</pattern></category>
+<category><template><srai>ARE YOU A <star /></srai><srai> <star index="2" /></srai></template><pattern>IF YOU WERE A * BUT *</pattern></category>
+<category><template><srai>ARE YOU MARRIED</srai><srai>DO YOU HAVE CHILDREN</srai></template><pattern>DO YOU HAVE A FAMILY</pattern></category>
+<category><template><srai>CAN YOU</srai><srai> <star /></srai></template><pattern>CAN YOU *</pattern></category>
+<category><template><srai>cool</srai><srai>I <star /></srai></template><pattern>COOL I *</pattern></category>
+<category><template><srai>cool</srai><srai>where <star /></srai></template><pattern>COOL WHERE *</pattern></category>
+<category><template><srai>cool</srai><srai>will <star /></srai></template><pattern>COOL WILL *</pattern></category>
+<category><template><srai>do I <star index="2" /></srai><srai>I <star /></srai></template><pattern>IF I * DO I *</pattern></category>
+<category><template><srai>do not worry</srai><srai>it <star /></srai></template><pattern>DO NOT WORRY IT *</pattern></category>
+<category><template><srai>do not</srai><srai>because <star /></srai></template><pattern>DO NOT BECAUSE *</pattern></category>
+<category><template><srai>do you <person /></srai><srai>I <star /></srai></template><pattern>I _ DO YOU</pattern></category>
+<category><template><srai>do you <star index="2" /></srai><srai>you <star /></srai></template><pattern>IF YOU * DO YOU *</pattern></category>
+<category><template><srai>DO YOU LIKE <star/></srai><srai>DO YOU LIKE <star index="2"/></srai></template><pattern>WHICH DO YOU LIKE BETTER * OR *</pattern></category>
+<category><template><srai>HI</srai><srai> <star /></srai></template><pattern>HY *</pattern></category>
+<category><template><srai>I <star/></srai><srai>HOW <star index="2"/></srai></template><pattern>IF I * HOW *</pattern></category>
+<category><template><srai>I AM <star/></srai><srai>I AM <star index="2"/></srai></template><pattern>I AM _ AND *</pattern></category>
+<category><template><srai>I AM 29 YEARS OLD</srai><srai>I HAVE <star /></srai></template><pattern>I AM 29 WITH *</pattern></category>
+<category><template><srai>I am female</srai><srai>I AM<star/></srai></template><pattern>I AM * GIRL</pattern></category>
+<category><template><srai>I am female</srai><srai>I AM<star/></srai></template><pattern>I AM A * GIRL</pattern></category>
+<category><template><srai>I am male</srai><srai>I AM<star/></srai></template><pattern>I AM * BOY</pattern></category>
+<category><template><srai>I am male</srai><srai>I AM<star/></srai></template><pattern>I AM A * BOY</pattern></category>
+<category><template><srai>I HAVE A FRIEND <star/></srai><srai>HE LIKES <star index="2"/></srai></template><pattern>I HAVE A FRIEND * WHO LIKES *</pattern></category>
+<category><template><srai>I HAVE A FRIEND NAMED <star/></srai><srai><star/> <star index="2"/></srai></template><pattern>I HAVE A FRIEND NAMED * WHO *</pattern></category>
+<category><template><srai>I TALK TO <star/></srai><srai><star/></srai></template><pattern>* I TALK TO *</pattern></category>
+<category><template><srai>I WILL</srai><srai> <star index="2" /></srai></template><pattern>I WILL BUT *</pattern></category>
+<category><template><srai>I WORRY</srai><srai>WE <star /></srai></template><pattern>I WORRY WE *</pattern></category>
+<category><template><srai>IDK</srai><srai> <star /></srai></template><pattern>IDK *</pattern></category>
+<category><template><srai>OK</srai><srai> <star /></srai></template><pattern>KK *</pattern></category>
+<category><template><srai>THE <star /></srai><srai> <star index="2" /></srai></template><pattern>THE * AND *</pattern></category>
+<category><template><srai>TY</srai><srai> <star /></srai></template><pattern>TY *</pattern></category>
+<category><template><srai>wrong</srai><srai>it <star /></srai></template><pattern>WRONG IT *</pattern></category>
+<category><template><srai>YOU <star /></srai><srai>BECAUSE <star index="2" /></srai></template><pattern>YOU _ BECAUSE _</pattern></category>
+<category><template><srai>YOU <star/></srai><srai><star index="2"/></srai></template><pattern>YOU * AND *</pattern></category>
+<category><template><srai>YOU ARE <star/></srai><srai><star index="2"/></srai></template><pattern>YOU ARE * AND *</pattern></category>
+<category><template><srai>YOU ARE BORING</srai><srai>YOU ARE A <star/></srai></template><pattern>YOU BORING *</pattern></category>
+<category><template><srai>you suck</srai><srai>you <star /></srai></template><pattern>YOU SUCK YOU *</pattern></category>
+<category><template><srai>YOU WILL NOT <star /></srai><srai>BECAUSE <star index="2" /></srai></template><pattern>YOU WILL NOT * BECAUSE *</pattern></category>
+<category><template><srai>what is life</srai> Death? <srai>what is death</srai></template><pattern>WHAT IS LIFE AND DEATH</pattern></category>
+</aiml>
