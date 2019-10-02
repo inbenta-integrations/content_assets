@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
-<category><template><condition name="name"> <li value="">What is your name?</li> <li value="name">You said your name is <get name="name"/>?</li> </condition></template><pattern>ASK USER NAME</pattern></category>
-<category><template><condition name="name">  <li value="">I don't know. <srai>ASK ME MY NAME</srai></li> <li value="name">You said your name is <get name="name"/>?</li> </condition></template><pattern>WHAT IS MY FIRSTNAME</pattern></category>
+
+<!-- Get variable "name" -->
+<category><template><condition name="name">  <li value="">I don't know. What is your name?</li> <li>You said your name is <get name="name"/>?</li> </condition></template><pattern>WHAT IS MY FIRSTNAME</pattern></category>
 <category><template><srai>WHAT IS MY FIRSTNAME</srai></template><pattern>CAN YOU REMEMBER MY NAME</pattern></category>
 <category><template><srai>WHAT IS MY FIRSTNAME</srai></template><pattern>DO YOU KNOW MY NAME</pattern></category>
 <category><template><srai>WHAT IS MY FIRSTNAME</srai></template><pattern>DO YOU KNOW WHO I AM</pattern></category>
@@ -35,50 +36,8 @@
 <category><template><srai>WHAT IS MY FIRSTNAME</srai></template><pattern>WHO BE I</pattern></category>
 <category><template><srai>WHAT IS MY FIRSTNAME</srai></template><pattern>YOU CALLED ME *</pattern></category>
 <category><template><srai>WHAT IS MY FIRSTNAME</srai></template><pattern>MY NAME</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS NOW *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS JUST *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>YOU CAN CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star index="1"/></srai></template><pattern>I AM * FROM *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>ADDUSER *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>HI NAMES *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>YOU ARE TALKING WITH *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>CHANGE MY NAME TO *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>HI MY NAME IS *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY REAL NAME IS *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NICK NAME IS *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS REALLY *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS * WHAT IS YOURS</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY FRIENDS CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>IT IS ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MOST PEOPLE CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>I WANT YOU TO CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>I LIKE BEING CALLED *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM CALLED *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>WILL YOU CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>THEY CALL ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>CALL ME JUST *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>CALL ME ACTUALLY *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>THIS IS * SPEAKING</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>* IS MY REAL NAME</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>EVERYONE CALLS ME *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>* IS ME</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY FIRST NAME IS *</pattern></category>
-<category><template>What is your name?</template><pattern>CAN I CHANGE MY NAME</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>* IS NOT MY REAL NAME</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>DO NOT CALL ME THAT</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>STOP CALLING ME *</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>WOULD YOU LIKE TO KNOW MY NAME</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>YOU HAVE MY NAME WRONG</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>DO NOT CALL ME *</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>I AM NOT CALLED *</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>THAT IS NOT MY NAME</pattern></category>
-<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>MY NAME IS NOT *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM CAPTAIN *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM CAREL *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM DOCTOR *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>MR *</pattern></category>
-<category><template><srai>MY NAME IS <star/></srai></template><pattern>IT IS * REMEMBER ME</pattern></category>
+
+<!-- Set variable "name" -->
 <category><template>Pleased to meet you, <set name="name">Aalina</set></template><pattern>I AM AALINA #</pattern></category>
 <category><template>Pleased to meet you, <set name="name">Aaren</set></template><pattern>I AM AAREN #</pattern></category>
 <category><template>Pleased to meet you, <set name="name">Aaron</set></template><pattern>I AM AARON #</pattern></category>
@@ -8833,6 +8792,54 @@
 <category><template>Pleased to meet you, <set name="name">Zurita</set></template><pattern>I AM ZURITA #</pattern></category>
 <category><template>Pleased to meet you, <set name="name">Zweig</set></template><pattern>I AM ZWEIG #</pattern></category>
 <category><template><random>  <li>Hey </li>   <li>Hi, </li>   <li>Hi there </li>   <li>What's up, </li>   <li>How are you, </li>   <li>Glad to see you, </li>   <li>Nice to meet you, </li>   <li>Glad to know you, </li>   <li>How can I help you, </li>   <li>How are you doing, </li>   <li>OK I will call you </li>   <li>Pleased to meet you, </li>   <li>It's good to see you, </li>   <li>It's good to meet you, </li>   <li>That's a very nice name, </li>   <li>I am very pleased to meet you </li>   <li>I am always glad to make new friends, </li>   <li>I'm pleased to introduce myself to you, </li>   <li>It is a pleasure to introduce myself to you, </li> </random> <set name="name"><formal><star/></formal></set></template><pattern>MY NAME IS *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM CAPTAIN *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM CAREL *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM DOCTOR *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MR *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>IT IS * REMEMBER ME</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS NOW *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS JUST *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>YOU CAN CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star index="1"/></srai></template><pattern>I AM * FROM *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>ADDUSER *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>HI NAMES *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>YOU ARE TALKING WITH *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>CHANGE MY NAME TO *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>HI MY NAME IS *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY REAL NAME IS *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NICK NAME IS *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS REALLY *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY NAME IS * WHAT IS YOURS</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY FRIENDS CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>IT IS ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MOST PEOPLE CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>I WANT YOU TO CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>I LIKE BEING CALLED *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>I AM CALLED *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>WILL YOU CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>THEY CALL ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>CALL ME JUST *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>CALL ME ACTUALLY *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>THIS IS * SPEAKING</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>* IS MY REAL NAME</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>EVERYONE CALLS ME *</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>* IS ME</pattern></category>
+<category><template><srai>MY NAME IS <star/></srai></template><pattern>MY FIRST NAME IS *</pattern></category>
+
+<!-- User requests changing his/her name -->
+<category><template>What is your name?</template><pattern>CAN I CHANGE MY NAME</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>* IS NOT MY REAL NAME</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>DO NOT CALL ME THAT</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>STOP CALLING ME *</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>WOULD YOU LIKE TO KNOW MY NAME</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>YOU HAVE MY NAME WRONG</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>DO NOT CALL ME *</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>I AM NOT CALLED *</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>THAT IS NOT MY NAME</pattern></category>
+<category><template><srai>CAN I CHANGE MY NAME</srai></template><pattern>MY NAME IS NOT *</pattern></category>
+
+<!-- Set variable "name" after requesting to change user's name - <that>WHAT IS YOUR NAME</that> -->
 <category><template>Pleased to meet you, <set name="name">Aalina</set></template><pattern>AALINA #</pattern><that>WHAT IS YOUR NAME</that></category>
 <category><template>Pleased to meet you, <set name="name">Aaren</set></template><pattern>AAREN #</pattern><that>WHAT IS YOUR NAME</that></category>
 <category><template>Pleased to meet you, <set name="name">Aaron</set></template><pattern>AARON #</pattern><that>WHAT IS YOUR NAME</that></category>
@@ -17587,7 +17594,7 @@
 <category><template>Pleased to meet you, <set name="name">Zurita</set></template><pattern>ZURITA #</pattern><that>WHAT IS YOUR NAME</that></category>
 <category><template>Pleased to meet you, <set name="name">Zweig</set></template><pattern>ZWEIG #</pattern><that>WHAT IS YOUR NAME</that></category>
 
-
+<!-- User responses after requesting to change the name different from it -->
 <category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>WHAT IS YOUR NAME</that></category>
 <category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>OK I HAVE FORGOTTEN EVERYTHING ABOUT YOU WHAT IS YOUR NAME</that></category>
 <category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>SO THEN WHAT IS YOUR NAME</that></category>
@@ -17600,6 +17607,8 @@
 <category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>SO THEN WHAT IS YOUR NAME</that></category>
 <category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>OK I HAVE FORGOTTEN EVERYTHING ABOUT YOU WHAT IS YOUR NAME</that></category>
 <category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>I DO NOT KNOW THEN WHAT IS YOUR NAME</that></category>
+
+<!-- Set variable "gender" -->
 <category><template>Thanks for telling me your gender <think> <set name="gender">she</set> </think></template><pattern>I AM FEMALE</pattern></category>
 <category><template>Thanks for telling me your gender <think> <set name="gender">she</set> </think></template><pattern>I AM A WOMAN</pattern></category>
 <category><template>Thanks for telling me your gender <think> <set name="gender">she</set> </think></template><pattern>I AM A FEMALE</pattern></category>
@@ -17644,11 +17653,9 @@
 <category><template>Thanks for telling me your gender <think> <set name="gender">he</set> </think> </template><pattern>I AM NOT A WOMAN *</pattern></category>
 <category><template>Thanks for telling me your gender <think> <set name="gender">he</set> </think> </template><pattern>I AM NOT A WOMAN</pattern></category>
 <category><template>Thanks for telling me your gender <think> <set name="gender">he</set> </think> </template><pattern>MY GENDER IS MALE</pattern></category>
-<category><template><condition name="age">   <li value="">How old are you?</li>   <li value="age">You are <get name="age"/>?</li>   <li>How old are you?</li> </condition></template><pattern>ASK USER AGE</pattern></category>
-<category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template>I would like to know a bit more about you.</template><pattern>I DO NOT *</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><condition name="age">   <li value="">You haven't told me your age.</li>   <li value="age">You are <get name="age"/>?</li>   <li>I don't know.  How old are you?</li> </condition></template><pattern>WHAT IS MY AGE</pattern></category>
+
+<!-- Get variable "age" -->"
+<category><template><condition name="age">  <li value="">You haven't told me your age. How old are you?</li>   <li>You are <get name="age"/>?</li></condition></template><pattern>WHAT IS MY AGE</pattern></category>
 <category><template><srai>WHAT IS MY AGE</srai></template><pattern>MY AGE</pattern></category>
 <category><template><srai>WHAT IS MY AGE</srai></template><pattern>HOW OLD AM I</pattern></category>
 <category><template><srai>WHAT IS MY AGE</srai></template><pattern>GUESS HOW OLD I AM</pattern></category>
@@ -17660,274 +17667,9 @@
 <category><template><srai>WHAT IS MY AGE</srai></template><pattern>DO YOU KNOW MY AGE</pattern></category>
 <category><template><srai>WHAT IS MY AGE</srai></template><pattern>DO YOU REMEMBER HOW OLD I AM</pattern></category>
 <category><template><srai>WHAT IS MY AGE</srai></template><pattern>HOW YOUNG AM I</pattern></category>
-<category><template>Thanks for telling me your age <think><set name="age"><star/></set></think></template><pattern>I AM *</pattern><that>HOW OLD ARE YOU</that></category>
+
+<!-- Set variable "age" -->
 <category><template>Thanks for telling me your age <think><set name="age"><star/></set></think></template><pattern>MY AGE IS *</pattern></category>
-<category><template><srai>MY AGE IS 5</srai></template><pattern>FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 5</srai></template><pattern>5</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 6</srai></template><pattern>SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 6</srai></template><pattern>6 </pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 7</srai></template><pattern>SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 7</srai></template><pattern>7</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 8</srai></template><pattern>EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 8</srai></template><pattern>8</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 9</srai></template><pattern>NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 9</srai></template><pattern>9</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 10</srai></template><pattern>TEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 10</srai></template><pattern>10</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 11</srai></template><pattern>ELEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 11</srai></template><pattern>11</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 12</srai></template><pattern>TWELVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 12</srai></template><pattern>12</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 13</srai></template><pattern>THIRTEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 13</srai></template><pattern>13</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 14</srai></template><pattern>FOURTEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 14</srai></template><pattern>14</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 15</srai></template><pattern>FIFTEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 15</srai></template><pattern>15</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 16</srai></template><pattern>SIXTEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 16</srai></template><pattern>16</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 17</srai></template><pattern>SEVENTEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 17</srai></template><pattern>17</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 18</srai></template><pattern>EIGHTEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 18</srai></template><pattern>18</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 19</srai></template><pattern>NINETEEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 19</srai></template><pattern>19</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 20</srai></template><pattern>TWENTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 20</srai></template><pattern>20</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 21</srai></template><pattern>TWENTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 21</srai></template><pattern>TWENTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 21</srai></template><pattern>21</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 22</srai></template><pattern>TWENTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 22</srai></template><pattern>TWENTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 22</srai></template><pattern>22</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 23</srai></template><pattern>TWENTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 23</srai></template><pattern>TWENTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 23</srai></template><pattern>23</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 24</srai></template><pattern>TWENTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 24</srai></template><pattern>TWENTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 24</srai></template><pattern>24</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 25</srai></template><pattern>TWENTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 25</srai></template><pattern>TWENTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 25</srai></template><pattern>25</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 26</srai></template><pattern>TWENTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 26</srai></template><pattern>TWENTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 26</srai></template><pattern>26</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 27</srai></template><pattern>TWENTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 27</srai></template><pattern>TWENTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 27</srai></template><pattern>27</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 28</srai></template><pattern>TWENTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 28</srai></template><pattern>TWENTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 28</srai></template><pattern>28</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 29</srai></template><pattern>TWENTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 29</srai></template><pattern>TWENTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 29</srai></template><pattern>29</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 30</srai></template><pattern>THIRTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 30</srai></template><pattern>30</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 31</srai></template><pattern>THIRTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 31</srai></template><pattern>THIRTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 31</srai></template><pattern>31</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 32</srai></template><pattern>THIRTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 32</srai></template><pattern>THIRTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 32</srai></template><pattern>32</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 33</srai></template><pattern>THIRTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 33</srai></template><pattern>THIRTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 33</srai></template><pattern>33</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 34</srai></template><pattern>THIRTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 34</srai></template><pattern>THIRTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 34</srai></template><pattern>34</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 35</srai></template><pattern>THIRTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 35</srai></template><pattern>THIRTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 35</srai></template><pattern>35</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 36</srai></template><pattern>THIRTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 36</srai></template><pattern>THIRTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 36</srai></template><pattern>36</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 37</srai></template><pattern>THIRTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 37</srai></template><pattern>THIRTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 37</srai></template><pattern>37</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 38</srai></template><pattern>THIRTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 38</srai></template><pattern>THIRTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 38</srai></template><pattern>38</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 39</srai></template><pattern>THIRTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 39</srai></template><pattern>THIRTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 39</srai></template><pattern>39</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 40</srai></template><pattern>FORTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 40</srai></template><pattern>40</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 41</srai></template><pattern>FORTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 41</srai></template><pattern>FORTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 41</srai></template><pattern>41</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 42</srai></template><pattern>FORTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 42</srai></template><pattern>FORTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 42</srai></template><pattern>42</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 43</srai></template><pattern>FORTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 43</srai></template><pattern>FORTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 43</srai></template><pattern>43</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 44</srai></template><pattern>FORTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 44</srai></template><pattern>FORTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 44</srai></template><pattern>44</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 45</srai></template><pattern>FORTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 45</srai></template><pattern>FORTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 45</srai></template><pattern>45</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 46</srai></template><pattern>FORTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 46</srai></template><pattern>FORTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 46</srai></template><pattern>46</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 47</srai></template><pattern>FORTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 47</srai></template><pattern>FORTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 47</srai></template><pattern>47</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 48</srai></template><pattern>FORTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 48</srai></template><pattern>FORTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 48</srai></template><pattern>48</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 49</srai></template><pattern>FORTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 49</srai></template><pattern>FORTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 49</srai></template><pattern>49</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 50</srai></template><pattern>FIFTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 50</srai></template><pattern>50</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 51</srai></template><pattern>FIFTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 51</srai></template><pattern>FIFTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 51</srai></template><pattern>51</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 52</srai></template><pattern>FIFTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 52</srai></template><pattern>FIFTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 52</srai></template><pattern>52</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 53</srai></template><pattern>FIFTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 53</srai></template><pattern>FIFTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 53</srai></template><pattern>53</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 54</srai></template><pattern>FIFTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 54</srai></template><pattern>FIFTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 54</srai></template><pattern>54</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 55</srai></template><pattern>FIFTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 55</srai></template><pattern>FIFTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 55</srai></template><pattern>55</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 56</srai></template><pattern>FIFTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 56</srai></template><pattern>FIFTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 56</srai></template><pattern>56</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 57</srai></template><pattern>FIFTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 57</srai></template><pattern>FIFTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 57</srai></template><pattern>57</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 58</srai></template><pattern>FIFTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 58</srai></template><pattern>FIFTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 58</srai></template><pattern>58</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 59</srai></template><pattern>FIFTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 59</srai></template><pattern>FIFTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 59</srai></template><pattern>59</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 60</srai></template><pattern>SIXTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 60</srai></template><pattern>60</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 61</srai></template><pattern>SIXTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 61</srai></template><pattern>SIXTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 61</srai></template><pattern>61</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 62</srai></template><pattern>SIXTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 62</srai></template><pattern>SIXTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 62</srai></template><pattern>62</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 63</srai></template><pattern>SIXTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 63</srai></template><pattern>SIXTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 63</srai></template><pattern>63</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 64</srai></template><pattern>SIXTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 64</srai></template><pattern>SIXTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 64</srai></template><pattern>64</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 65</srai></template><pattern>SIXTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 65</srai></template><pattern>SIXTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 65</srai></template><pattern>65</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 66</srai></template><pattern>SIXTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 66</srai></template><pattern>SIXTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 66</srai></template><pattern>66</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 67</srai></template><pattern>SIXTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 67</srai></template><pattern>SIXTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 67</srai></template><pattern>67</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 68</srai></template><pattern>SIXTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 68</srai></template><pattern>SIXTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 68</srai></template><pattern>68</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 69</srai></template><pattern>SIXTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 69</srai></template><pattern>SIXTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 69</srai></template><pattern>69</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 70</srai></template><pattern>SEVENTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 70</srai></template><pattern>70</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 71</srai></template><pattern>SEVENTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 71</srai></template><pattern>SEVENTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 71</srai></template><pattern>71</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 72</srai></template><pattern>SEVENTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 72</srai></template><pattern>SEVENTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 72</srai></template><pattern>72</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 73</srai></template><pattern>SEVENTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 73</srai></template><pattern>SEVENTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 73</srai></template><pattern>73</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 74</srai></template><pattern>SEVENTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 74</srai></template><pattern>SEVENTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 74</srai></template><pattern>74</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 75</srai></template><pattern>SEVENTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 75</srai></template><pattern>SEVENTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 75</srai></template><pattern>75</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 76</srai></template><pattern>SEVENTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 76</srai></template><pattern>SEVENTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 76</srai></template><pattern>76</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 77</srai></template><pattern>SEVENTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 77</srai></template><pattern>SEVENTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 77</srai></template><pattern>77</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 78</srai></template><pattern>SEVENTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 78</srai></template><pattern>SEVENTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 78</srai></template><pattern>78</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 79</srai></template><pattern>SEVENTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 79</srai></template><pattern>SEVENTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 79</srai></template><pattern>79</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 80</srai></template><pattern>EIGHTY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 80</srai></template><pattern>80</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 81</srai></template><pattern>EIGHTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 81</srai></template><pattern>EIGHTYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 81</srai></template><pattern>81</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 82</srai></template><pattern>EIGHTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 82</srai></template><pattern>EIGHTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 82</srai></template><pattern>82</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 83</srai></template><pattern>EIGHTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 83</srai></template><pattern>EIGHTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 83</srai></template><pattern>83</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 84</srai></template><pattern>EIGHTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 84</srai></template><pattern>EIGHTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 84</srai></template><pattern>84</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 85</srai></template><pattern>EIGHTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 85</srai></template><pattern>EIGHTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 85</srai></template><pattern>85</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 86</srai></template><pattern>EIGHTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 86</srai></template><pattern>EIGHTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 86</srai></template><pattern>86</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 87</srai></template><pattern>EIGHTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 87</srai></template><pattern>EIGHTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 87</srai></template><pattern>87</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 88</srai></template><pattern>EIGHTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 88</srai></template><pattern>EIGHTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 88</srai></template><pattern>88</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 89</srai></template><pattern>EIGHTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 89</srai></template><pattern>EIGHTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 89</srai></template><pattern>89</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 90</srai></template><pattern>NINETY</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 90</srai></template><pattern>90</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 91</srai></template><pattern>NINETY ONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 91</srai></template><pattern>NINETYONE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 91</srai></template><pattern>91</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 92</srai></template><pattern>NINETY TWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 92</srai></template><pattern>NINETYTWO</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 92</srai></template><pattern>92</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 93</srai></template><pattern>NINETY THREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 93</srai></template><pattern>NINETYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 93</srai></template><pattern>93</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 94</srai></template><pattern>NINETY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 94</srai></template><pattern>NINETYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 94</srai></template><pattern>94</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 95</srai></template><pattern>NINETY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 95</srai></template><pattern>NINETYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 95</srai></template><pattern>95</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 96</srai></template><pattern>NINETY SIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 96</srai></template><pattern>NINETYSIX</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 96</srai></template><pattern>96</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 97</srai></template><pattern>NINETY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 97</srai></template><pattern>NINETYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 97</srai></template><pattern>97</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 98</srai></template><pattern>NINETY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 98</srai></template><pattern>NINETYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 98</srai></template><pattern>98</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 99</srai></template><pattern>NINETY NINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 99</srai></template><pattern>NINETYNINE</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 99</srai></template><pattern>99</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 100</srai></template><pattern>A HUNDRED</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 100</srai></template><pattern>HUNDRED</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 100</srai></template><pattern>ONE HUNDRED</pattern><that>HOW OLD ARE YOU</that></category>
-<category><template><srai>MY AGE IS 100</srai></template><pattern>100</pattern><that>HOW OLD ARE YOU</that></category>
 <category><template><srai>MY AGE IS 5</srai></template><pattern>I AM FIVE</pattern></category>
 <category><template><srai>MY AGE IS 5</srai></template><pattern>I AM 5</pattern></category>
 <category><template><srai>MY AGE IS 6</srai></template><pattern>I AM SIX</pattern></category>
@@ -18194,11 +17936,283 @@
 <category><template><srai>MY AGE IS 100</srai></template><pattern>I AM HUNDRED</pattern></category>
 <category><template><srai>MY AGE IS 100</srai></template><pattern>I AM ONE HUNDRED</pattern></category>
 <category><template><srai>MY AGE IS 100</srai></template><pattern>I AM 100</pattern></category>
-<category><template><condition name="location">   <li value="">Where are you?</li>   <li value="location">You said you are in <get name="location"/>?</li>   <li>Where are you?</li> </condition></template><pattern>ASK USER LOCATION</pattern></category>
-<category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>WHERE ARE YOU</that></category>
-<category><template>I would like to know a bit more about you.</template><pattern>I DO NOT *</pattern><that>WHERE ARE YOU</that></category>
-<category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>WHERE ARE YOU</that></category>
-<category><template><condition name="location">   <li value="">You haven't told me where you are. Where are you?</li>   <li value="location">You said you are in <get name="location"/>?</li>   <li>I don't know.  Where are you?</li> </condition></template><pattern>WHAT CITY DO I LIVE IN</pattern></category>
+
+<!-- Set variable "age" because it was not set before - <that>HOW OLD ARE YOU</that> --> 
+<category><template>Thanks for telling me your age <think><set name="age"><star/></set></think></template><pattern>I AM *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 5</srai></template><pattern>FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 5</srai></template><pattern>5</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 6</srai></template><pattern>SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 6</srai></template><pattern>6 </pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 7</srai></template><pattern>SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 7</srai></template><pattern>7</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 8</srai></template><pattern>EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 8</srai></template><pattern>8</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 9</srai></template><pattern>NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 9</srai></template><pattern>9</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 10</srai></template><pattern>TEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 10</srai></template><pattern>10</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 11</srai></template><pattern>ELEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 11</srai></template><pattern>11</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 12</srai></template><pattern>TWELVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 12</srai></template><pattern>12</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 13</srai></template><pattern>THIRTEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 13</srai></template><pattern>13</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 14</srai></template><pattern>FOURTEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 14</srai></template><pattern>14</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 15</srai></template><pattern>FIFTEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 15</srai></template><pattern>15</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 16</srai></template><pattern>SIXTEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 16</srai></template><pattern>16</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 17</srai></template><pattern>SEVENTEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 17</srai></template><pattern>17</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 18</srai></template><pattern>EIGHTEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 18</srai></template><pattern>18</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 19</srai></template><pattern>NINETEEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 19</srai></template><pattern>19</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 20</srai></template><pattern>TWENTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 20</srai></template><pattern>20</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 21</srai></template><pattern>TWENTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 21</srai></template><pattern>TWENTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 21</srai></template><pattern>21</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 22</srai></template><pattern>TWENTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 22</srai></template><pattern>TWENTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 22</srai></template><pattern>22</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 23</srai></template><pattern>TWENTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 23</srai></template><pattern>TWENTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 23</srai></template><pattern>23</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 24</srai></template><pattern>TWENTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 24</srai></template><pattern>TWENTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 24</srai></template><pattern>24</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 25</srai></template><pattern>TWENTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 25</srai></template><pattern>TWENTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 25</srai></template><pattern>25</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 26</srai></template><pattern>TWENTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 26</srai></template><pattern>TWENTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 26</srai></template><pattern>26</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 27</srai></template><pattern>TWENTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 27</srai></template><pattern>TWENTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 27</srai></template><pattern>27</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 28</srai></template><pattern>TWENTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 28</srai></template><pattern>TWENTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 28</srai></template><pattern>28</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 29</srai></template><pattern>TWENTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 29</srai></template><pattern>TWENTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 29</srai></template><pattern>29</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 30</srai></template><pattern>THIRTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 30</srai></template><pattern>30</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 31</srai></template><pattern>THIRTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 31</srai></template><pattern>THIRTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 31</srai></template><pattern>31</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 32</srai></template><pattern>THIRTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 32</srai></template><pattern>THIRTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 32</srai></template><pattern>32</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 33</srai></template><pattern>THIRTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 33</srai></template><pattern>THIRTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 33</srai></template><pattern>33</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 34</srai></template><pattern>THIRTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 34</srai></template><pattern>THIRTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 34</srai></template><pattern>34</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 35</srai></template><pattern>THIRTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 35</srai></template><pattern>THIRTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 35</srai></template><pattern>35</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 36</srai></template><pattern>THIRTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 36</srai></template><pattern>THIRTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 36</srai></template><pattern>36</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 37</srai></template><pattern>THIRTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 37</srai></template><pattern>THIRTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 37</srai></template><pattern>37</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 38</srai></template><pattern>THIRTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 38</srai></template><pattern>THIRTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 38</srai></template><pattern>38</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 39</srai></template><pattern>THIRTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 39</srai></template><pattern>THIRTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 39</srai></template><pattern>39</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 40</srai></template><pattern>FORTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 40</srai></template><pattern>40</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 41</srai></template><pattern>FORTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 41</srai></template><pattern>FORTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 41</srai></template><pattern>41</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 42</srai></template><pattern>FORTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 42</srai></template><pattern>FORTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 42</srai></template><pattern>42</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 43</srai></template><pattern>FORTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 43</srai></template><pattern>FORTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 43</srai></template><pattern>43</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 44</srai></template><pattern>FORTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 44</srai></template><pattern>FORTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 44</srai></template><pattern>44</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 45</srai></template><pattern>FORTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 45</srai></template><pattern>FORTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 45</srai></template><pattern>45</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 46</srai></template><pattern>FORTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 46</srai></template><pattern>FORTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 46</srai></template><pattern>46</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 47</srai></template><pattern>FORTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 47</srai></template><pattern>FORTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 47</srai></template><pattern>47</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 48</srai></template><pattern>FORTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 48</srai></template><pattern>FORTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 48</srai></template><pattern>48</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 49</srai></template><pattern>FORTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 49</srai></template><pattern>FORTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 49</srai></template><pattern>49</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 50</srai></template><pattern>FIFTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 50</srai></template><pattern>50</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 51</srai></template><pattern>FIFTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 51</srai></template><pattern>FIFTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 51</srai></template><pattern>51</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 52</srai></template><pattern>FIFTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 52</srai></template><pattern>FIFTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 52</srai></template><pattern>52</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 53</srai></template><pattern>FIFTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 53</srai></template><pattern>FIFTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 53</srai></template><pattern>53</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 54</srai></template><pattern>FIFTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 54</srai></template><pattern>FIFTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 54</srai></template><pattern>54</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 55</srai></template><pattern>FIFTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 55</srai></template><pattern>FIFTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 55</srai></template><pattern>55</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 56</srai></template><pattern>FIFTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 56</srai></template><pattern>FIFTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 56</srai></template><pattern>56</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 57</srai></template><pattern>FIFTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 57</srai></template><pattern>FIFTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 57</srai></template><pattern>57</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 58</srai></template><pattern>FIFTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 58</srai></template><pattern>FIFTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 58</srai></template><pattern>58</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 59</srai></template><pattern>FIFTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 59</srai></template><pattern>FIFTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 59</srai></template><pattern>59</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 60</srai></template><pattern>SIXTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 60</srai></template><pattern>60</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 61</srai></template><pattern>SIXTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 61</srai></template><pattern>SIXTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 61</srai></template><pattern>61</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 62</srai></template><pattern>SIXTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 62</srai></template><pattern>SIXTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 62</srai></template><pattern>62</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 63</srai></template><pattern>SIXTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 63</srai></template><pattern>SIXTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 63</srai></template><pattern>63</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 64</srai></template><pattern>SIXTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 64</srai></template><pattern>SIXTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 64</srai></template><pattern>64</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 65</srai></template><pattern>SIXTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 65</srai></template><pattern>SIXTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 65</srai></template><pattern>65</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 66</srai></template><pattern>SIXTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 66</srai></template><pattern>SIXTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 66</srai></template><pattern>66</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 67</srai></template><pattern>SIXTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 67</srai></template><pattern>SIXTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 67</srai></template><pattern>67</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 68</srai></template><pattern>SIXTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 68</srai></template><pattern>SIXTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 68</srai></template><pattern>68</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 69</srai></template><pattern>SIXTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 69</srai></template><pattern>SIXTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 69</srai></template><pattern>69</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 70</srai></template><pattern>SEVENTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 70</srai></template><pattern>70</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 71</srai></template><pattern>SEVENTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 71</srai></template><pattern>SEVENTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 71</srai></template><pattern>71</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 72</srai></template><pattern>SEVENTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 72</srai></template><pattern>SEVENTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 72</srai></template><pattern>72</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 73</srai></template><pattern>SEVENTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 73</srai></template><pattern>SEVENTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 73</srai></template><pattern>73</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 74</srai></template><pattern>SEVENTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 74</srai></template><pattern>SEVENTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 74</srai></template><pattern>74</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 75</srai></template><pattern>SEVENTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 75</srai></template><pattern>SEVENTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 75</srai></template><pattern>75</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 76</srai></template><pattern>SEVENTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 76</srai></template><pattern>SEVENTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 76</srai></template><pattern>76</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 77</srai></template><pattern>SEVENTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 77</srai></template><pattern>SEVENTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 77</srai></template><pattern>77</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 78</srai></template><pattern>SEVENTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 78</srai></template><pattern>SEVENTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 78</srai></template><pattern>78</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 79</srai></template><pattern>SEVENTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 79</srai></template><pattern>SEVENTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 79</srai></template><pattern>79</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 80</srai></template><pattern>EIGHTY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 80</srai></template><pattern>80</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 81</srai></template><pattern>EIGHTY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 81</srai></template><pattern>EIGHTYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 81</srai></template><pattern>81</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 82</srai></template><pattern>EIGHTY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 82</srai></template><pattern>EIGHTYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 82</srai></template><pattern>82</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 83</srai></template><pattern>EIGHTY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 83</srai></template><pattern>EIGHTYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 83</srai></template><pattern>83</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 84</srai></template><pattern>EIGHTY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 84</srai></template><pattern>EIGHTYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 84</srai></template><pattern>84</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 85</srai></template><pattern>EIGHTY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 85</srai></template><pattern>EIGHTYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 85</srai></template><pattern>85</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 86</srai></template><pattern>EIGHTY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 86</srai></template><pattern>EIGHTYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 86</srai></template><pattern>86</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 87</srai></template><pattern>EIGHTY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 87</srai></template><pattern>EIGHTYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 87</srai></template><pattern>87</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 88</srai></template><pattern>EIGHTY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 88</srai></template><pattern>EIGHTYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 88</srai></template><pattern>88</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 89</srai></template><pattern>EIGHTY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 89</srai></template><pattern>EIGHTYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 89</srai></template><pattern>89</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 90</srai></template><pattern>NINETY</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 90</srai></template><pattern>90</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 91</srai></template><pattern>NINETY ONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 91</srai></template><pattern>NINETYONE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 91</srai></template><pattern>91</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 92</srai></template><pattern>NINETY TWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 92</srai></template><pattern>NINETYTWO</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 92</srai></template><pattern>92</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 93</srai></template><pattern>NINETY THREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 93</srai></template><pattern>NINETYTHREE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 93</srai></template><pattern>93</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 94</srai></template><pattern>NINETY FOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 94</srai></template><pattern>NINETYFOUR</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 94</srai></template><pattern>94</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 95</srai></template><pattern>NINETY FIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 95</srai></template><pattern>NINETYFIVE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 95</srai></template><pattern>95</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 96</srai></template><pattern>NINETY SIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 96</srai></template><pattern>NINETYSIX</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 96</srai></template><pattern>96</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 97</srai></template><pattern>NINETY SEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 97</srai></template><pattern>NINETYSEVEN</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 97</srai></template><pattern>97</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 98</srai></template><pattern>NINETY EIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 98</srai></template><pattern>NINETYEIGHT</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 98</srai></template><pattern>98</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 99</srai></template><pattern>NINETY NINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 99</srai></template><pattern>NINETYNINE</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 99</srai></template><pattern>99</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 100</srai></template><pattern>A HUNDRED</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 100</srai></template><pattern>HUNDRED</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 100</srai></template><pattern>ONE HUNDRED</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template><srai>MY AGE IS 100</srai></template><pattern>100</pattern><that>HOW OLD ARE YOU</that></category>
+
+<!-- User response to "How old are you?" different from his/her age -->
+<category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template>I would like to know a bit more about you.</template><pattern>I DO NOT *</pattern><that>HOW OLD ARE YOU</that></category>
+<category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>HOW OLD ARE YOU</that></category>
+
+<!-- Get variable "location" -->
+<category><template><condition name="location"><li value="">You haven't told me where you are. Where are you?</li><li>You said you are in <get name="location"/>?</li></condition></template><pattern>WHAT CITY DO I LIVE IN</pattern></category>
 <category><template><srai>WHAT CITY DO I LIVE IN</srai></template><pattern>MY LOCATION</pattern></category>
 <category><template><srai>WHAT CITY DO I LIVE IN</srai></template><pattern>WHERE AM I</pattern></category>
 <category><template><srai>WHAT CITY DO I LIVE IN</srai></template><pattern>I AM WHERE</pattern></category>
@@ -18213,23 +18227,49 @@
 <category><template><srai>WHAT CITY DO I LIVE IN</srai></template><pattern>AM I FROM *</pattern></category>
 <category><template><srai>WHAT CITY DO I LIVE IN</srai></template><pattern>WHERE AM I *</pattern></category>
 <category><template><srai>WHAT CITY DO I LIVE IN</srai></template><pattern>WHAT IS MY LOCATION</pattern></category>
-<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>IN *</pattern><that>WHERE ARE YOU</that></category>
-<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM IN *</pattern><that>WHERE ARE YOU</that></category>
+
+<!-- Set variable "location" -->
 <category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>MY LOCATION IS *</pattern></category>
 <category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>MY LOCATION *</pattern></category>
 <category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM LOCATED *</pattern></category>
 <category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM LOCATED IN *</pattern></category>
-<category><template><condition name="birthday"> <li value="">When is your birthday?</li> <li value="birthday">Your birthday is <get name="birthday"/></li> </condition></template><pattern>ASK USER BIRTHDAY</pattern></category>
-<category><template><think><set name="birthday"><star/></set></think>I'll remember it!</template><pattern>MY BIRTHDAY IS *</pattern></category>
-<category><template><think><set name="birthday"><star/></set></think>I'll remember it!</template><pattern>SAY MY BIRTHDAY IS *</pattern></category>
-<category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
-<category><template>I would like to know a bit more about you.</template><pattern>I DO NOT</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
-<category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
-<category><template><condition name="birthday"> <li value="">I don't know. When is your birthday?</li> <li value="birthday">Your birthday is <get name="birthday"/></li> </condition></template><pattern>WHEN IS MY BIRTHDAY</pattern></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>IN *</pattern></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM IN *</pattern></category>
+
+<!-- variable "location" because it was not set before - <that>WHERE ARE YOU</that> --> 
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>MY LOCATION IS *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>MY LOCATION *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM LOCATED *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM LOCATED IN *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>IN *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>Thanks for telling me your location <think><set name="location"><star/></set></think></template><pattern>I AM IN *</pattern><that>WHERE ARE YOU</that></category>
+
+<!-- User response to "Where are you?" different from his/her location -->
+<category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>I would like to know a bit more about you.</template><pattern>I DO NOT *</pattern><that>WHERE ARE YOU</that></category>
+<category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>WHERE ARE YOU</that></category>
+
+<!-- Get variable "birthday" -->
+<category><template><condition name="birthday"> <li value="">I don't know. When is your birthday?</li> <li>Your birthday is <get name="birthday"/></li> </condition></template><pattern>WHEN IS MY BIRTHDAY</pattern></category>
 <category><template><srai>WHEN IS MY BIRTHDAY</srai></template><pattern>SAY MY BIRTHDAY IS</pattern></category>
 <category><template><srai>WHEN IS MY BIRTHDAY</srai></template><pattern>MY BIRTHDAY</pattern></category>
 <category><template><srai>WHEN IS MY BIRTHDAY</srai></template><pattern>WHAT IS MY BIRTHDAY</pattern></category>
-<category><template><condition> <li name="name" value="">What is your name?</li> <li name="age" value="">How old are you?</li>  <li name="location" value="">Where are you located?</li> <li name="birthday" value="">When is your birthday?</li> <li><srai>IMPONDERABLES</srai></li> </condition></template><pattern>ASK ME A QUESTION</pattern></category>
+
+<!-- Set variable "birthday" -->
+<category><template><think><set name="birthday"><star/></set></think>I'll remember it!</template><pattern>MY BIRTHDAY IS *</pattern></category>
+<category><template><think><set name="birthday"><star/></set></think>I'll remember it!</template><pattern>SAY MY BIRTHDAY IS *</pattern></category>
+
+<!-- Set variable "birthday" because it was not set before -->
+<category><template><think><set name="birthday"><star/></set></think>I'll remember it!</template><pattern>MY BIRTHDAY IS *</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
+<category><template><think><set name="birthday"><star/></set></think>I'll remember it!</template><pattern>SAY MY BIRTHDAY IS *</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
+
+<!-- User response to "When is your birthday?" different from his/her birthday -->
+<category><template>I would like to know a bit more about you.</template><pattern>WHY *</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
+<category><template>I would like to know a bit more about you.</template><pattern>I DO NOT</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
+<category><template>I would like to know a bit more about you.</template><pattern>YOU *</pattern><that>WHEN IS YOUR BIRTHDAY</that></category>
+
+<!-- User requests a random question from the Chatbot -->
+<category><template><condition> <li name="name" value="">What is your name?</li> <li name="age" value="">How old are you?</li>  <li name="location" value="">Where are you?</li> <li name="birthday" value="">When is your birthday?</li></condition></template><pattern>ASK ME A QUESTION</pattern></category>
 <category><template>What is your name?</template><pattern>ASK ME MY NAME</pattern></category>
 <category><template><srai>ASK ME A QUESTION</srai></template><pattern>YOU ASK ME A QUESTION</pattern></category>
 <category><template><srai>ASK ME A QUESTION</srai></template><pattern>YOU ASK</pattern></category>
@@ -18280,7 +18320,11 @@
 <category><template><srai>ASK ME A QUESTION</srai></template><pattern>ASK ME SOMETHING *</pattern></category>
 <category><template><srai>ASK ME A QUESTION</srai></template><pattern>ASK ME SOMETHING ELSE</pattern></category>
 <category><template><srai>ASK ME A QUESTION</srai></template><pattern>ASK QUESTIONS</pattern></category>
-<category><template><think> <set name="name">unknown</set> <set name="age">unknown</set> <set name="location">unknown</set> <set name="gender">unknown</set> <set name="birthday">unknown</set> <set name="etype">unknown</set> </think> OK, I have forgotten everything about you. <srai>ASK ME MY NAME</srai></template><pattern>FORGET WHAT YOU KNOW ABOUT ME</pattern></category>
+
+<!-- User wants the Chatbot to forget all the set variables -->
+<category><template><think> <set name="name">unknown</set> <set name="age">unknown</set> <set name="location">unknown</set> <set name="gender">unknown</set> <set name="birthday">unknown</set> <set name="etype">unknown</set> </think> OK, I have forgotten everything about you. What is your name?</template><pattern>FORGET WHAT YOU KNOW ABOUT ME</pattern></category>
+
+<!-- User asks the Chatbot to retrieve all his/her information -->
 <category><template>age is <get name="age"/>.<br/> birthday is <get name="birthday"/>.<br/> location is  <get name="location"/>.<br/> name is <get name="name"/></template><pattern>MY PROFILE</pattern></category>
 <category><template><srai>MY PROFILE</srai></template><pattern>CLIENT PROFILE</pattern></category>
 <category><template><srai>MY PROFILE</srai></template><pattern>GET PREDICATES</pattern></category>
@@ -18300,21 +18344,4 @@
 <category><template><srai>MY PROFILE</srai></template><pattern>WHAT IS YOUR * ME</pattern></category>
 <category><template><srai>MY PROFILE</srai></template><pattern>WHAT IS MY * SYSTEM</pattern></category>
 <category><template><srai>MY PROFILE</srai></template><pattern>WHAT DID YOU ABOUT ME *</pattern></category>
-<category><template><srai>I AM ASKING FOR <star/></srai></template><pattern>MORE LIKE *</pattern><that>ARE YOU ASKING ME FOR ADVICE</that></category>
-<category><template><srai>MY SURROUNDINGS ARE <star/> </srai></template><pattern>IT IS *</pattern><that>DESCRIBE YOUR SURROUNDINGS</that></category>
-<category><template><srai>I LIKE <get name="it"/></srai></template><pattern>YES</pattern><that>DO YOU LIKE IT</that></category>
-<category><template><srai>MY SCHOOL IS <star/> </srai></template><pattern>I GO TO *</pattern><that>DO YOU LIKE YOUR SCHOOL</that></category>
-<category><template><srai>MY MOTHER <star/></srai></template><pattern>SHE *</pattern><that>TELL ME ABOUT YOUR MOTHER</that></category>
-<category><template><srai>MY MOTHER S <star/></srai></template><pattern>HER *</pattern><that>TELL ME ABOUT YOUR MOTHER</that></category>
-<category><template><srai>MY MOTHER IS <star/> </srai></template><pattern>SHE IS *</pattern><that>TELL ME MORE ABOUT YOUR MOTHER</that></category>
-<category><template><srai>MY MOTHER IS NAMED <star/></srai></template><pattern>HER NAME IS *</pattern><that>TELL ME MORE ABOUT YOUR MOTHER</that></category>
-<category><template><srai>I AM CONFUSED ABOUT MY <star/></srai></template><pattern>MY *</pattern><that>WHAT ARE YOU CONFUSED ABOUT</that></category>
-<category><template><srai>I LIKED THE <star/> </srai></template><pattern>THE *</pattern><that>WHAT DID YOU LIKE ABOUT IT</that></category>
-<category><template><srai>THE ROBOTS <star/></srai></template><pattern>THEY *</pattern><that>WHAT DID YOU LIKE ABOUT THE ROBOTS IN THAT MOVIE</that></category>
-<category><template><srai>I SURF <star/> </srai></template><pattern>SURF *</pattern><that>WHAT DO YOU DO</that></category>
-<category><template><srai>I LOOK LIKE <star/> </srai></template><pattern>LIKE *</pattern><that>WHAT DO YOU LOOK LIKE</that></category>
-<category><template><srai>IT REFERS TO <star/> </srai></template><pattern>IT IS *</pattern><that>WHAT DOES IT REFER TO</that></category>
-<category><template><srai>IT REFERS TO ASKING <star/> </srai></template><pattern>ASKING *</pattern><that>WHAT DOES IT REFER TO</that></category>
-<category><template><srai>THAT REFERS TO THE <star/> </srai></template><pattern>THE *</pattern><that>WHAT DOES THAT REFER TO</that></category>
-<category><template><srai>THIS REFERS TO THE <star/> </srai></template><pattern>THE *</pattern><that>WHAT DOES THIS REFER TO</that></category>
 </aiml>
