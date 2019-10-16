@@ -1,0 +1,331 @@
+{
+  "class": "go.GraphLinksModel",
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "category": "Start",
+      "text": "Start",
+      "loc": "501.5 24"
+    },
+    {
+      "key": 5,
+      "category": "Inactive",
+      "text_title": "5. Escalation Form",
+      "text_trans": "",
+      "level": {
+        "depth": 3,
+        "slots": 1,
+        "parent": 3,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "66": "<p>\n\tOur agents will need some information.\n</p>"
+        },
+        "RATINGS": {
+          "67": "FALSE"
+        },
+        "DIRECT_CALL": {
+          "68": "escalationForm"
+        },
+        "NATURAL_LANGUAGE_MATCHING": {
+          "8": "False"
+        },
+        "title": "Escalation Form",
+        "status": "inactive",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "1": 1
+        }
+      },
+      "loc": "100.5 793.2604878863949"
+    },
+    {
+      "key": 6,
+      "category": "Inactive",
+      "text_title": "6. No Agents Available",
+      "text_trans": "",
+      "level": {
+        "depth": 3,
+        "slots": 1,
+        "parent": 3,
+        "offset": 1,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "69": "Unfortunately, there are no agents available to speak with you at this time. Please feel free to continue chatting in this conversation window or call our customer service center at 1-800-XXX-XXXX."
+        },
+        "DIRECT_CALL": {
+          "70": "escalationNoAgentsAvailable"
+        },
+        "NATURAL_LANGUAGE_MATCHING": {
+          "12": "False"
+        },
+        "TRACKING": {
+          "53": "CHAT_NO_AGENTS",
+          "71": "CHAT_NO_AGENTS"
+        },
+        "title": "No Agents Available",
+        "status": "inactive",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "1": 1
+        }
+      },
+      "loc": "501.5 793.2604878863949"
+    },
+    {
+      "key": 3,
+      "category": "Inactive",
+      "text_title": "3. Start Escalation",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 2,
+        "parent": "2",
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "DIRECT_CALL": {
+          "46": "escalationStart"
+        },
+        "NATURAL_LANGUAGE_MATCHING": {
+          "47": "False"
+        },
+        "title": "Start Escalation",
+        "status": "inactive",
+        "transition_question": "",
+        "transition_type": "automatic",
+        "categories": {
+          "1": 1
+        }
+      },
+      "loc": "301 535.1562927318369"
+    },
+    {
+      "key": 4,
+      "category": "Inactive",
+      "text_title": "4. Rejected Escalation",
+      "text_trans": "",
+      "level": {
+        "depth": 2,
+        "slots": 1,
+        "parent": "2",
+        "offset": 2,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "ANSWER_TEXT": {
+          "5": "No problem! So how else can I help you?"
+        },
+        "DIRECT_CALL": {
+          "48": "escalationRejected"
+        },
+        "NATURAL_LANGUAGE_MATCHING": {
+          "49": "False"
+        },
+        "TRACKING": {
+          "50": "CHAT_ESCALATION_REJECTED"
+        },
+        "title": "Rejected Escalation",
+        "status": "inactive",
+        "transition_question": "",
+        "transition_type": "options",
+        "categories": {
+          "1": 1
+        }
+      },
+      "loc": "702 535.1562927318369"
+    },
+    {
+      "key": "2",
+      "category": "Inactive",
+      "text_title": "2. Offer Escalation Dialog",
+      "text_trans": "",
+      "level": {
+        "depth": 1,
+        "slots": 3,
+        "parent": -1,
+        "offset": 0,
+        "parentsOffset": 0
+      },
+      "faq_data": {
+        "DIRECT_CALL": {
+          "44": "escalationOffer"
+        },
+        "NATURAL_LANGUAGE_MATCHING": {
+          "45": "False"
+        },
+        "title": "Offer Escalation Dialog",
+        "status": "inactive",
+        "transition_question": "",
+        "transition_type": "1by1",
+        "categories": {
+          "1": 1
+        }
+      },
+      "loc": "501.5 277.05209757727897"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": 3,
+      "to": 5,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "condition",
+      "condition-variable": "19",
+      "condition-variable-name": "agents_available",
+      "condition-operator": "=",
+      "condition-variable-value": "true",
+      "color": "#785593",
+      "toArrow": "DoubleTriangle",
+      "sizeFactor": "2",
+      "condition": "agents_available = true",
+      "points": [
+        301,
+        564.2083903091159,
+        301,
+        574.2083903091159,
+        301,
+        664.2083903091159,
+        100.5,
+        664.2083903091159,
+        100.5,
+        754.2083903091159,
+        100.5,
+        764.2083903091159
+      ]
+    },
+    {
+      "from": 3,
+      "to": 6,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "condition-default",
+      "condition-variable": "",
+      "condition-variable-name": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#785593",
+      "toArrow": "DoubleTriangle",
+      "sizeFactor": "2",
+      "condition": "Default",
+      "points": [
+        301,
+        564.2083903091159,
+        301,
+        574.2083903091159,
+        301,
+        664.2083903091159,
+        501.5,
+        664.2083903091159,
+        501.5,
+        754.2083903091159,
+        501.5,
+        764.2083903091159
+      ]
+    },
+    {
+      "from": "2",
+      "to": 3,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Vols que et posi en contacte amb un agent real?",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-variable-name": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        501.5,
+        306.10419515455794,
+        501.5,
+        316.10419515455794,
+        501.5,
+        406.10419515455794,
+        301,
+        406.10419515455794,
+        301,
+        496.10419515455794,
+        301,
+        506.10419515455794
+      ]
+    },
+    {
+      "from": "2",
+      "to": 4,
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "Llavors, vols continuar parlant amb mi?",
+      "visible": true,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-variable-name": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#000",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        501.5,
+        306.10419515455794,
+        501.5,
+        316.10419515455794,
+        501.5,
+        406.10419515455794,
+        702,
+        406.10419515455794,
+        702,
+        496.10419515455794,
+        702,
+        506.10419515455794
+      ]
+    },
+    {
+      "from": -1,
+      "to": "2",
+      "fromPort": "B",
+      "toPort": "T",
+      "text": "",
+      "visible": false,
+      "transition-type": "",
+      "condition-variable": "",
+      "condition-variable-name": "",
+      "condition-operator": "",
+      "condition-variable-value": "",
+      "color": "#128266",
+      "toArrow": "Standard",
+      "sizeFactor": "1",
+      "points": [
+        501.5,
+        48,
+        501.5,
+        58,
+        501.5,
+        148,
+        501.5,
+        148,
+        501.5,
+        238,
+        501.5,
+        248
+      ]
+    }
+  ]
+}
